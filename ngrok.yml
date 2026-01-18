@@ -1,0 +1,6 @@
+version: 2
+tunnels:
+  app:
+    proto: http
+    addr: app:8031
+    inspect: true

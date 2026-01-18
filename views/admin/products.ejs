@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Mangy Dog Coffee Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    .sidebar { min-height: 100vh; background: #2c3e50; }
+    .sidebar .nav-link { color: rgba(255,255,255,0.8); padding: 0.75rem 1rem; }
+    .sidebar .nav-link:hover, .sidebar .nav-link.active { color: #fff; background: rgba(255,255,255,0.1); }
+    .sidebar .nav-link i { margin-right: 0.5rem; }
+    .main-content { background: #f8f9fa; min-height: 100vh; }
+    .nav-divider { border-top: 1px solid rgba(255,255,255,0.2); margin: 0.5rem 0; }
+    .nav-section { color: rgba(255,255,255,0.5); font-size: 0.75rem; padding: 0.5rem 1rem; text-transform: uppercase; }
+    .stat-card { border-left: 4px solid; }
+    .stat-card.primary { border-color: #0d6efd; }
+    .stat-card.success { border-color: #198754; }
+    .stat-card.info { border-color: #0dcaf0; }
+    .stat-card.warning { border-color: #ffc107; }
+    .stat-card.secondary { border-color: #6c757d; }
+    .stat-card.danger { border-color: #dc3545; }
+    .product-image { width: 50px; height: 50px; object-fit: cover; border-radius: 4px; }
+    .type-badge { font-size: 0.75rem; text-transform: capitalize; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <%- include('../partials/sidebar', { token: token, activePage: 'products' }) %>
+
+      <main class="col-md-10 ms-sm-auto main-content p-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2>Products Catalog</h2>
+          <div class="d-flex gap-2">
+            <select class="form-select form-select-sm" id="typeFilter" style="width: auto;">
+              <option value="all" <%= typeFilter === 'all' ? 'selected' : '' %>>All Types</option>
+              <% types.forEach(type => { %>
+              <option value="<%= type %>" <%= typeFilter === type ? 'selected' : '' %>><%= type.charAt(0).toUpperCase() + type.slice(1) %></option>
+              <% }); %>
+            </select>
+            <button class="btn btn-outline-primary btn-sm" id="showAllBtn">
+              <i class="bi bi-list"></i> Show All
+            </button>
+          </div>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="row mb-4">
+          <div class="col-md-2">
+            <div class="card stat-card primary">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Total Products</h6>
+                <h4 class="mb-0"><%= stats.total %></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card stat-card success">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Coffee Blends</h6>
+                <h4 class="mb-0"><%= stats.blends %></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card stat-card info">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Single Origin</h6>
+                <h4 class="mb-0"><%= stats.singleOrigin %></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card stat-card warning">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Teas</h6>
+                <h4 class="mb-0"><%= stats.teas %></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card stat-card secondary">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Pods</h6>
+                <h4 class="mb-0"><%= stats.pods %></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card stat-card danger">
+              <div class="card-body py-2">
+                <h6 class="text-muted mb-0 small">Sample Packs</h6>
+                <h4 class="mb-0"><%= stats.samplePacks %></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span><i class="bi bi-box-seam"></i> Product Catalog</span>
+            <span class="badge bg-secondary"><%= products.length %> products</span>
+          </div>
+          <div class="card-body">
+            <table class="table table-hover" id="productsTable">
+              <thead>
+                <tr>
+                  <th style="width: 60px;">Image</th>
+                  <th>Product</th>
+                  <th>Type</th>
+                  <th>Grinds</th>
+                  <th>Sizes</th>
+                  <th>Price Range</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% products.forEach(product => {
+                  const priceValues = Object.values(product.prices);
+                  const minPrice = Math.min(...priceValues);
+                  const maxPrice = Math.max(...priceValues);
+                %>
+                <tr onclick="highlightRow(event)" data-handle="<%= product.handle %>">
+                  <td>
+                    <img src="<%= product.image %>" alt="<%= product.title %>" class="product-image" onerror="this.src='https://via.placeholder.com/50?text=No+Image'">
+                  </td>
+                  <td>
+                    <strong><%= product.title %></strong>
+                    <br><small class="text-muted"><%= product.description.substring(0, 60) %><%= product.description.length > 60 ? '...' : '' %></small>
+                  </td>
+                  <td>
+                    <span class="badge type-badge bg-<%=
+                      product.type === 'blend' ? 'success' :
+                      product.type === 'single origin' ? 'info' :
+                      product.type === 'tea' ? 'warning' :
+                      product.type === 'pods' ? 'secondary' : 'danger'
+                    %>"><%= product.type %></span>
+                  </td>
+                  <td><small><%= product.grinds.join(', ') %></small></td>
+                  <td><small><%= product.sizes.join(', ') %></small></td>
+                  <td>
+                    <% if (minPrice === maxPrice) { %>
+                      $<%= minPrice.toFixed(2) %>
+                    <% } else { %>
+                      $<%= minPrice.toFixed(2) %> - $<%= maxPrice.toFixed(2) %>
+                    <% } %>
+                  </td>
+                  <td>
+                    <span class="badge bg-<%= product.status === 'active' ? 'success' : 'secondary' %>">
+                      <%= product.status %>
+                    </span>
+                  </td>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+
+            <% if (products.length === 0) { %>
+              <p class="text-muted text-center">No products found</p>
+            <% } %>
+          </div>
+        </div>
+
+        <!-- Product Detail Modal -->
+        <div class="modal fade" id="productModal" tabindex="-1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="productModalTitle">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body" id="productModalBody">
+                <!-- Content loaded dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <%- include('../partials/grid-helpers') %>
+  <script>
+    // Store all products for modal display
+    const allProducts = <%- JSON.stringify(allProducts) %>;
+
+    document.addEventListener('DOMContentLoaded', function() {
+      initGrid('productsTable', { perPage: 10 });
+
+      // Type filter change
+      document.getElementById('typeFilter').addEventListener('change', function() {
+        const type = this.value;
+        window.location.href = '/admin/products?token=<%= token %>&type=' + type;
+      });
+
+      // Show All button
+      document.getElementById('showAllBtn').addEventListener('click', function() {
+        // Reset pagination to show all
+        const paginator = window['productsTablePaginator'];
+        if (paginator) {
+          paginator.perPage = 1000; // Show all
+          paginator.totalPages = 1;
+          paginator.showPage(1);
+          // Update the per-page select
+          const perPageSelect = document.getElementById('productsTable-perpage');
+          if (perPageSelect) {
+            perPageSelect.innerHTML = '<option value="1000" selected>All</option>' +
+              '<option value="10">10 per page</option>' +
+              '<option value="25">25 per page</option>' +
+              '<option value="50">50 per page</option>' +
+              '<option value="100">100 per page</option>';
+          }
+        }
+      });
+
+      // Row double-click for details
+      document.querySelectorAll('#productsTable tbody tr').forEach(row => {
+        row.addEventListener('dblclick', function() {
+          const handle = this.dataset.handle;
+          const product = allProducts.find(p => p.handle === handle);
+          if (product) {
+            showProductModal(product);
+          }
+        });
+      });
+    });
+
+    function showProductModal(product) {
+      const modal = new bootstrap.Modal(document.getElementById('productModal'));
+      document.getElementById('productModalTitle').textContent = product.title;
+
+      const priceRows = Object.entries(product.prices).map(([size, price]) =>
+        `<tr><td>${size}</td><td>$${price.toFixed(2)}</td></tr>`
+      ).join('');
+
+      document.getElementById('productModalBody').innerHTML = `
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="${product.image}" alt="${product.title}" class="img-fluid rounded" style="max-height: 200px;" onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
+          </div>
+          <div class="col-md-8">
+            <p><strong>Type:</strong> <span class="badge bg-info">${product.type}</span></p>
+            <p><strong>Description:</strong> ${product.description}</p>
+            <p><strong>Available Grinds:</strong> ${product.grinds.join(', ')}</p>
+            <p><strong>Vendor:</strong> ${product.vendor}</p>
+            <p><strong>Status:</strong> <span class="badge bg-${product.status === 'active' ? 'success' : 'secondary'}">${product.status}</span></p>
+            <h6>Pricing:</h6>
+            <table class="table table-sm table-bordered">
+              <thead><tr><th>Size</th><th>Price</th></tr></thead>
+              <tbody>${priceRows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+      modal.show();
+    }
+  </script>
+</body>
+</html>

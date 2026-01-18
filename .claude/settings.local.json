@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:admin:*)",
+      "Bash(npx tsx:*)",
+      "Bash(npx kill-port 8006)",
+      "Bash(del check-db.ts)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(npx tsc:*)",
+      "Bash(sqlite3:*)",
+      "Bash(del \"C:\\SCO-Digital-Assistant\\check-db.ts\")",
+      "Bash(start http://localhost:8006/admin/)",
+      "Bash(dir:*)",
+      "Bash(start http://localhost:8005/test)",
+      "Bash(start http://localhost:8006/admin/sponsorship?token=local-dev-token)",
+      "WebFetch(domain:mangydogcoffee.com)",
+      "Bash(del \"C:\\MangyDogCoffee-Digital-Assistant\\src\\routes\\admin_events.ts\")",
+      "Bash(timeout:*)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(more:*)",
+      "Bash(findstr:*)",
+      "Bash(del C:MangyDogCoffee-Digital-Assistantcheck-kb.ts C:MangyDogCoffee-Digital-Assistanttest-kb-query.ts C:MangyDogCoffee-Digital-Assistantcheck-config.ts)",
+      "Bash(cd:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

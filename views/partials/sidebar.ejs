@@ -1,0 +1,33 @@
+<nav class="col-md-2 d-none d-md-block sidebar p-0" style="background: <%= typeof branding !== 'undefined' && branding?.primaryColor ? branding.primaryColor : '#92400e' %>">
+  <div class="p-3 text-white">
+    <h5><i class="bi bi-cup-hot"></i> Mangy Dog Coffee</h5>
+    <small>Voice Assistant Admin</small>
+  </div>
+  <ul class="nav flex-column">
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'dashboard' ? ' active' : '' %>" href="/MangyDogCoffee/admin?token=<%= token %>"><i class="bi bi-speedometer2"></i> Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'calls' ? ' active' : '' %>" href="/MangyDogCoffee/admin/calls?token=<%= token %>"><i class="bi bi-telephone"></i> Call Logs</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'products' ? ' active' : '' %>" href="/MangyDogCoffee/admin/products?token=<%= token %>"><i class="bi bi-box-seam"></i> Products</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'coffee-sales' ? ' active' : '' %>" href="/MangyDogCoffee/admin/coffee-sales?token=<%= token %>"><i class="bi bi-cup-hot-fill"></i> Coffee Sales</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'tea-sales' ? ' active' : '' %>" href="/MangyDogCoffee/admin/tea-sales?token=<%= token %>"><i class="bi bi-cup"></i> Tea Sales</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'kb' ? ' active' : '' %>" href="/MangyDogCoffee/admin/kb?token=<%= token %>"><i class="bi bi-book"></i> Knowledge Base</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'analytics' ? ' active' : '' %>" href="/MangyDogCoffee/admin/analytics?token=<%= token %>"><i class="bi bi-graph-up"></i> Analytics</a></li>
+    <div class="nav-divider"></div>
+    <div class="nav-section">Configuration</div>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'webhooks' ? ' active' : '' %>" href="/MangyDogCoffee/admin/webhooks?token=<%= token %>"><i class="bi bi-broadcast"></i> Webhooks</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'sms' ? ' active' : '' %>" href="/MangyDogCoffee/admin/sms?token=<%= token %>"><i class="bi bi-chat-dots"></i> SMS Settings</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'transfer' ? ' active' : '' %>" href="/MangyDogCoffee/admin/transfer?token=<%= token %>"><i class="bi bi-telephone-forward"></i> Call Transfer</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'dtmf' ? ' active' : '' %>" href="/MangyDogCoffee/admin/dtmf?token=<%= token %>"><i class="bi bi-grid-3x3"></i> DTMF Menu</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'tools' ? ' active' : '' %>" href="/MangyDogCoffee/admin/tools?token=<%= token %>"><i class="bi bi-tools"></i> AI Tools</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'agents' ? ' active' : '' %>" href="/MangyDogCoffee/admin/agents?token=<%= token %>"><i class="bi bi-people"></i> AI Agents</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'logic' ? ' active' : '' %>" href="/MangyDogCoffee/admin/logic?token=<%= token %>"><i class="bi bi-diagram-3"></i> Logic Rules</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'functions' ? ' active' : '' %>" href="/MangyDogCoffee/admin/functions?token=<%= token %>"><i class="bi bi-lightning"></i> Functions</a></li>
+    <div class="nav-divider"></div>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'voices' ? ' active' : '' %>" href="/MangyDogCoffee/admin/voices?token=<%= token %>"><i class="bi bi-volume-up"></i> Voices</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'greeting' ? ' active' : '' %>" href="/MangyDogCoffee/admin/greeting?token=<%= token %>"><i class="bi bi-chat-quote"></i> Greeting</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'settings' ? ' active' : '' %>" href="/MangyDogCoffee/admin/settings?token=<%= token %>"><i class="bi bi-gear"></i> Settings</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'features' ? ' active' : '' %>" href="/MangyDogCoffee/admin/features?token=<%= token %>"><i class="bi bi-toggles"></i> Features</a></li>
+    <div class="nav-divider"></div>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'help' ? ' active' : '' %>" href="/MangyDogCoffee/admin/help?token=<%= token %>"><i class="bi bi-question-circle"></i> Help & Support</a></li>
+    <li class="nav-item"><a class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'account' ? ' active' : '' %>" href="/MangyDogCoffee/admin/account?token=<%= token %>"><i class="bi bi-person-circle"></i> Account</a></li>
+  </ul>
+</nav>

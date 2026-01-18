@@ -1,0 +1,810 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+asian-plateau-blend,Asian Plateau Blend,"A medium roast containing blended coffees of Southeast Asia offering herbal flavor notes and a heavy body. This coffee offers consistent flavor, a strong aroma and is best as a hot coffee drink. Grown under the full sun with washed processing that is environmentally friendly.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARASIAN PLATEAU BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_80c90f77-4b77-4067-b85b-d70cfc355993.jpg?v=1762966227,1,"",false,,,,oz,,16.40,active
+asian-plateau-blend,,,,,,,,,Espresso,,,1 LB,,,,,CVARASIAN PLATEAU BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+asian-plateau-blend,,,,,,,,,Espresso,,,2 LB,,,,,CVARASIAN PLATEAU BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+asian-plateau-blend,,,,,,,,,Espresso,,,5 LB,,,,,CVARASIAN PLATEAU BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+asian-plateau-blend,,,,,,,,,Standard,,,12oz,,,,,CVARASIAN PLATEAU BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+asian-plateau-blend,,,,,,,,,Standard,,,1 LB,,,,,CVARASIAN PLATEAU BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+asian-plateau-blend,,,,,,,,,Standard,,,2 LB,,,,,CVARASIAN PLATEAU BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+asian-plateau-blend,,,,,,,,,Standard,,,5 LB,,,,,CVARASIAN PLATEAU BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+asian-plateau-blend,,,,,,,,,Whole Bean,,,12oz,,,,,CVARASIAN PLATEAU BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+asian-plateau-blend,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARASIAN PLATEAU BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+asian-plateau-blend,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARASIAN PLATEAU BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+asian-plateau-blend,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARASIAN PLATEAU BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+african-kahawa-blend,African Kahawa Blend,"A very complex medium-dark roast of bright full flavor African grown coffees. Enjoy hints of toffee, caramel, chocolate, raisins, green apples, red fruits and even hints of cherries and black currant with a soft floral finish. Coffee cherries are often processed by hand at the home of the farmers after being hand picked. Quality standards are high and farmers adhere to these strict standards with environmentally friendly processing, washing the beans and leaving in the sun to dry, then hand sorting and packaging.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARAFRICAN KAHAWA BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_eb5be362-9a51-4942-8965-31eb2b37645a.jpg?v=1762966231,1,"",false,,,,oz,,16.40,active
+african-kahawa-blend,,,,,,,,,Espresso,,,1 LB,,,,,CVARAFRICAN KAHAWA BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+african-kahawa-blend,,,,,,,,,Espresso,,,2 LB,,,,,CVARAFRICAN KAHAWA BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+african-kahawa-blend,,,,,,,,,Espresso,,,5 LB,,,,,CVARAFRICAN KAHAWA BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+african-kahawa-blend,,,,,,,,,Standard,,,12oz,,,,,CVARAFRICAN KAHAWA BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+african-kahawa-blend,,,,,,,,,Standard,,,1 LB,,,,,CVARAFRICAN KAHAWA BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+african-kahawa-blend,,,,,,,,,Standard,,,2 LB,,,,,CVARAFRICAN KAHAWA BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+african-kahawa-blend,,,,,,,,,Standard,,,5 LB,,,,,CVARAFRICAN KAHAWA BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+african-kahawa-blend,,,,,,,,,Whole Bean,,,12oz,,,,,CVARAFRICAN KAHAWA BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+african-kahawa-blend,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARAFRICAN KAHAWA BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+african-kahawa-blend,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARAFRICAN KAHAWA BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+african-kahawa-blend,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARAFRICAN KAHAWA BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+house-blend,House Blend,"A medium roast blend of select coffees from Central and South America that is smooth, clean and consistent for a flavorful cup every time. Features a medium body with tasting notes that include nutty, sweet chocolate, mild citrus and a clean bright finish. These blended coffees are both natural/dry processed and wet mill washed/sun dried. These techniques are friendly to the environment, the rain forests and the living creatures of the high elevation mountains where these coffees are grown.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARHOUSE BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_93512972-dcdd-498a-aab2-fd5f32bd991c.jpg?v=1762966239,1,"",false,,,,oz,,16.40,active
+house-blend,,,,,,,,,Espresso,,,1 LB,,,,,CVARHOUSE BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+house-blend,,,,,,,,,Espresso,,,2 LB,,,,,CVARHOUSE BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+house-blend,,,,,,,,,Espresso,,,5 LB,,,,,CVARHOUSE BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+house-blend,,,,,,,,,Standard,,,12oz,,,,,CVARHOUSE BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+house-blend,,,,,,,,,Standard,,,1 LB,,,,,CVARHOUSE BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+house-blend,,,,,,,,,Standard,,,2 LB,,,,,CVARHOUSE BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+house-blend,,,,,,,,,Standard,,,5 LB,,,,,CVARHOUSE BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+house-blend,,,,,,,,,Whole Bean,,,12oz,,,,,CVARHOUSE BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+house-blend,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARHOUSE BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+house-blend,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARHOUSE BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+house-blend,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARHOUSE BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+breakfast-blend-2,Breakfast Blend,"A lightly roasted blend of South American coffees that are perfect as an early sunrise roast. Tasting notes include walnuts, mild apple, slight raisin and toffee. Environmentally friendly washed processing and sun dried. This coffee is both partial sun and full sun grown at high mountain elevations.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARBREAKFAST BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_b3cdc89d-3563-47f5-8518-faafd0ae64a8.jpg?v=1762966246,1,"",false,,,,oz,,16.40,active
+breakfast-blend-2,,,,,,,,,Espresso,,,1 LB,,,,,CVARBREAKFAST BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+breakfast-blend-2,,,,,,,,,Espresso,,,2 LB,,,,,CVARBREAKFAST BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+breakfast-blend-2,,,,,,,,,Espresso,,,5 LB,,,,,CVARBREAKFAST BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+breakfast-blend-2,,,,,,,,,Standard,,,12oz,,,,,CVARBREAKFAST BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+breakfast-blend-2,,,,,,,,,Standard,,,1 LB,,,,,CVARBREAKFAST BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+breakfast-blend-2,,,,,,,,,Standard,,,2 LB,,,,,CVARBREAKFAST BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+breakfast-blend-2,,,,,,,,,Standard,,,5 LB,,,,,CVARBREAKFAST BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+breakfast-blend-2,,,,,,,,,Whole Bean,,,12oz,,,,,CVARBREAKFAST BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+breakfast-blend-2,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARBREAKFAST BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+breakfast-blend-2,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARBREAKFAST BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,29.60,
+breakfast-blend-2,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARBREAKFAST BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+gourmet-donut-shop,Gourmet Donut Shop,"A light-medium roast coffee blend featuring coffees with tasting notes that include cocoa, caramel, toffee and mild fruits. A perfectly balanced morning coffee that offers a stronger flavor when compared to the lighter breakfast blends.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARGOURMET DONUT SHOP-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_a9ccaad1-ad56-4fde-bef8-f6330bf79eb4.jpg?v=1762966251,1,"",false,,,,oz,,16.40,active
+gourmet-donut-shop,,,,,,,,,Espresso,,,1 LB,,,,,CVARGOURMET DONUT SHOP-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+gourmet-donut-shop,,,,,,,,,Espresso,,,2 LB,,,,,CVARGOURMET DONUT SHOP-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+gourmet-donut-shop,,,,,,,,,Espresso,,,5 LB,,,,,CVARGOURMET DONUT SHOP-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+gourmet-donut-shop,,,,,,,,,Standard,,,12oz,,,,,CVARGOURMET DONUT SHOP-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+gourmet-donut-shop,,,,,,,,,Standard,,,1 LB,,,,,CVARGOURMET DONUT SHOP-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+gourmet-donut-shop,,,,,,,,,Standard,,,2 LB,,,,,CVARGOURMET DONUT SHOP-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+gourmet-donut-shop,,,,,,,,,Standard,,,5 LB,,,,,CVARGOURMET DONUT SHOP-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+gourmet-donut-shop,,,,,,,,,Whole Bean,,,12oz,,,,,CVARGOURMET DONUT SHOP-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.40,
+gourmet-donut-shop,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARGOURMET DONUT SHOP-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.40,
+gourmet-donut-shop,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARGOURMET DONUT SHOP-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,26.60,
+gourmet-donut-shop,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARGOURMET DONUT SHOP-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,63.50,
+french-roast,French Roast,"A deep dark roast of our highest scoring African coffees offering a bold, rich coffee flavor. The beans are shiny with an oil sheen and offer a bittersweet flavor with low acidity.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARFRENCH ROAST-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_ab45b4a7-01ae-4be2-8ae2-e208e7d65583.jpg?v=1762966259,1,"",false,,,,oz,,16.65,active
+french-roast,,,,,,,,,Espresso,,,1 LB,,,,,CVARFRENCH ROAST-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+french-roast,,,,,,,,,Espresso,,,2 LB,,,,,CVARFRENCH ROAST-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+french-roast,,,,,,,,,Espresso,,,5 LB,,,,,CVARFRENCH ROAST-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+french-roast,,,,,,,,,Standard,,,12oz,,,,,CVARFRENCH ROAST-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.65,
+french-roast,,,,,,,,,Standard,,,1 LB,,,,,CVARFRENCH ROAST-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+french-roast,,,,,,,,,Standard,,,2 LB,,,,,CVARFRENCH ROAST-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+french-roast,,,,,,,,,Standard,,,5 LB,,,,,CVARFRENCH ROAST-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+french-roast,,,,,,,,,Whole Bean,,,12oz,,,,,CVARFRENCH ROAST-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.65,
+french-roast,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARFRENCH ROAST-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+french-roast,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARFRENCH ROAST-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+french-roast,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARFRENCH ROAST-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+italian-roast-1,Italian Roast,"An extra dark oily roast made from Central American coffees for deep, heavy coffee flavor. Origin characteristics are diminished and acidity is non-existent.",Mangy Dog Coffee,,"",blend,true,Grind,Espresso,,Size,12oz,,,,,CVARITALIAN ROAST-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/LABEL2_12oz_on_bag_4f14ffd4-13ef-42df-a619-796fe474f5e0.jpg?v=1762966269,1,"",false,,,,oz,,16.65,active
+italian-roast-1,,,,,,,,,Espresso,,,1 LB,,,,,CVARITALIAN ROAST-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+italian-roast-1,,,,,,,,,Espresso,,,2 LB,,,,,CVARITALIAN ROAST-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+italian-roast-1,,,,,,,,,Espresso,,,5 LB,,,,,CVARITALIAN ROAST-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+italian-roast-1,,,,,,,,,Standard,,,12oz,,,,,CVARITALIAN ROAST-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.65,
+italian-roast-1,,,,,,,,,Standard,,,1 LB,,,,,CVARITALIAN ROAST-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+italian-roast-1,,,,,,,,,Standard,,,2 LB,,,,,CVARITALIAN ROAST-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+italian-roast-1,,,,,,,,,Standard,,,5 LB,,,,,CVARITALIAN ROAST-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+italian-roast-1,,,,,,,,,Whole Bean,,,12oz,,,,,CVARITALIAN ROAST-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.65,
+italian-roast-1,,,,,,,,,Whole Bean,,,1 LB,,,,,CVARITALIAN ROAST-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,19.53,
+italian-roast-1,,,,,,,,,Whole Bean,,,2 LB,,,,,CVARITALIAN ROAST-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,30.10,
+italian-roast-1,,,,,,,,,Whole Bean,,,5 LB,,,,,CVARITALIAN ROAST-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,64.00,
+holiday-blend,Holiday Blend,"Festive holiday blend from Brazil, Peru and India",Mangy Dog Coffee,,"",blend,true,Grind,Coarse,,Size,12oz,,,,,TVARHOLIDAY BLEND-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_03f58e76-d513-4327-b8ff-03c6b880aa17.jpg?v=1762966274,1,"",false,,,,oz,,15.50,active
+holiday-blend,,,,,,,,,Coarse,,,1 LB,,,,,TVARHOLIDAY BLEND-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+holiday-blend,,,,,,,,,Coarse,,,2 LB,,,,,TVARHOLIDAY BLEND-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+holiday-blend,,,,,,,,,Coarse,,,5 LB,,,,,TVARHOLIDAY BLEND-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+holiday-blend,,,,,,,,,Coarse,,,12 LB,,,,,TVARHOLIDAY BLEND-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,135.00,
+holiday-blend,,,,,,,,,Espresso,,,12oz,,,,,VARHOLIDAY BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+holiday-blend,,,,,,,,,Espresso,,,1 LB,,,,,VARHOLIDAY BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+holiday-blend,,,,,,,,,Espresso,,,2 LB,,,,,VARHOLIDAY BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+holiday-blend,,,,,,,,,Espresso,,,5 LB,,,,,VARHOLIDAY BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+holiday-blend,,,,,,,,,Standard,,,12oz,,,,,VARHOLIDAY BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+holiday-blend,,,,,,,,,Standard,,,1 LB,,,,,VARHOLIDAY BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+holiday-blend,,,,,,,,,Standard,,,2 LB,,,,,VARHOLIDAY BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+holiday-blend,,,,,,,,,Standard,,,5 LB,,,,,VARHOLIDAY BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+holiday-blend,,,,,,,,,Whole Bean,,,12oz,,,,,VARHOLIDAY BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+holiday-blend,,,,,,,,,Whole Bean,,,1 LB,,,,,VARHOLIDAY BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+holiday-blend,,,,,,,,,Whole Bean,,,2 LB,,,,,VARHOLIDAY BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+holiday-blend,,,,,,,,,Whole Bean,,,5 LB,,,,,VARHOLIDAY BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+cold-brew-coffee-1,Cold Brew Coffee,"Medium Smooth chocolate, toffee and floral tones. Great for cold brew or nitro.",Mangy Dog Coffee,,"",blend,true,Grind,Coarse,,Size,12oz,,,,,TVARCOLD BREW COFFEE-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_01ceb848-4e91-4ccb-bdcc-cb5a9c742df1.jpg?v=1762966279,1,"",false,,,,oz,,15.95,active
+cold-brew-coffee-1,,,,,,,,,Coarse,,,1 LB,,,,,TVARCOLD BREW COFFEE-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+cold-brew-coffee-1,,,,,,,,,Coarse,,,2 LB,,,,,TVARCOLD BREW COFFEE-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+cold-brew-coffee-1,,,,,,,,,Coarse,,,5 LB,,,,,TVARCOLD BREW COFFEE-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+cold-brew-coffee-1,,,,,,,,,Coarse,,,12 LB,,,,,TVARCOLD BREW COFFEE-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+cold-brew-coffee-1,,,,,,,,,Espresso,,,12oz,,,,,TVARCOLD BREW COFFEE-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+cold-brew-coffee-1,,,,,,,,,Espresso,,,1 LB,,,,,TVARCOLD BREW COFFEE-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+cold-brew-coffee-1,,,,,,,,,Espresso,,,2 LB,,,,,TVARCOLD BREW COFFEE-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+cold-brew-coffee-1,,,,,,,,,Espresso,,,5 LB,,,,,TVARCOLD BREW COFFEE-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+cold-brew-coffee-1,,,,,,,,,Espresso,,,12 LB,,,,,TVARCOLD BREW COFFEE-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+cold-brew-coffee-1,,,,,,,,,Standard,,,12oz,,,,,TVARCOLD BREW COFFEE-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+cold-brew-coffee-1,,,,,,,,,Standard,,,1 LB,,,,,TVARCOLD BREW COFFEE-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+cold-brew-coffee-1,,,,,,,,,Standard,,,2 LB,,,,,TVARCOLD BREW COFFEE-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+cold-brew-coffee-1,,,,,,,,,Standard,,,5 LB,,,,,TVARCOLD BREW COFFEE-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+cold-brew-coffee-1,,,,,,,,,Standard,,,12 LB,,,,,TVARCOLD BREW COFFEE-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+cold-brew-coffee-1,,,,,,,,,Whole Bean,,,12oz,,,,,TVARCOLD BREW COFFEE-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+cold-brew-coffee-1,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARCOLD BREW COFFEE-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+cold-brew-coffee-1,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARCOLD BREW COFFEE-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+cold-brew-coffee-1,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARCOLD BREW COFFEE-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+cold-brew-coffee-1,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARCOLD BREW COFFEE-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+whiskey-barrel-aged,Whiskey Barrel Aged,Single origin Guat. aged 30 days in a Bourbon barrel and then roasted to order,Mangy Dog Coffee,,"",blend,true,Grind,Coarse,,Size,12oz,,,,,TVARWHISKEY BARREL AGED-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_a1ff5ebf-7088-4ccc-8380-ce812067e6a1.jpg?v=1762966284,1,"",false,,,,oz,,16.50,active
+whiskey-barrel-aged,,,,,,,,,Coarse,,,1 LB,,,,,TVARWHISKEY BARREL AGED-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+whiskey-barrel-aged,,,,,,,,,Coarse,,,2 LB,,,,,TVARWHISKEY BARREL AGED-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+whiskey-barrel-aged,,,,,,,,,Coarse,,,5 LB,,,,,TVARWHISKEY BARREL AGED-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+whiskey-barrel-aged,,,,,,,,,Coarse,,,12 LB,,,,,TVARWHISKEY BARREL AGED-CO-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+whiskey-barrel-aged,,,,,,,,,Espresso,,,12oz,,,,,TVARWHISKEY BARREL AGED-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+whiskey-barrel-aged,,,,,,,,,Espresso,,,1 LB,,,,,TVARWHISKEY BARREL AGED-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+whiskey-barrel-aged,,,,,,,,,Espresso,,,2 LB,,,,,TVARWHISKEY BARREL AGED-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+whiskey-barrel-aged,,,,,,,,,Espresso,,,5 LB,,,,,TVARWHISKEY BARREL AGED-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+whiskey-barrel-aged,,,,,,,,,Espresso,,,12 LB,,,,,TVARWHISKEY BARREL AGED-ES-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+whiskey-barrel-aged,,,,,,,,,Standard,,,12oz,,,,,TVARWHISKEY BARREL AGED-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+whiskey-barrel-aged,,,,,,,,,Standard,,,1 LB,,,,,TVARWHISKEY BARREL AGED-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+whiskey-barrel-aged,,,,,,,,,Standard,,,2 LB,,,,,TVARWHISKEY BARREL AGED-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+whiskey-barrel-aged,,,,,,,,,Standard,,,5 LB,,,,,TVARWHISKEY BARREL AGED-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+whiskey-barrel-aged,,,,,,,,,Standard,,,12 LB,,,,,TVARWHISKEY BARREL AGED-ST-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+whiskey-barrel-aged,,,,,,,,,Whole Bean,,,12oz,,,,,TVARWHISKEY BARREL AGED-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+whiskey-barrel-aged,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARWHISKEY BARREL AGED-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+whiskey-barrel-aged,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARWHISKEY BARREL AGED-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+whiskey-barrel-aged,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARWHISKEY BARREL AGED-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+whiskey-barrel-aged,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARWHISKEY BARREL AGED-WH-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+max-caf-blend,Max Caf Blend,High caffeine blend of coffee. Tanzania and India Robusta,Mangy Dog Coffee,,"",blend,true,Grind,Coarse,,Size,12oz,,,,,TVARMAX CAF BLEND-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_fd439a8f-491e-4ab7-ab2a-22396c67437f.jpg?v=1762966291,1,"",false,,,,oz,,15.95,active
+max-caf-blend,,,,,,,,,Coarse,,,1 LB,,,,,TVARMAX CAF BLEND-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+max-caf-blend,,,,,,,,,Coarse,,,2 LB,,,,,TVARMAX CAF BLEND-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+max-caf-blend,,,,,,,,,Coarse,,,5 LB,,,,,TVARMAX CAF BLEND-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+max-caf-blend,,,,,,,,,Coarse,,,12 LB,,,,,TVARMAX CAF BLEND-CO-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+max-caf-blend,,,,,,,,,Espresso,,,12oz,,,,,TVARMAX CAF BLEND-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+max-caf-blend,,,,,,,,,Espresso,,,1 LB,,,,,TVARMAX CAF BLEND-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+max-caf-blend,,,,,,,,,Espresso,,,2 LB,,,,,TVARMAX CAF BLEND-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+max-caf-blend,,,,,,,,,Espresso,,,5 LB,,,,,TVARMAX CAF BLEND-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+max-caf-blend,,,,,,,,,Espresso,,,12 LB,,,,,TVARMAX CAF BLEND-ES-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+max-caf-blend,,,,,,,,,Standard,,,12oz,,,,,TVARMAX CAF BLEND-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+max-caf-blend,,,,,,,,,Standard,,,1 LB,,,,,TVARMAX CAF BLEND-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+max-caf-blend,,,,,,,,,Standard,,,2 LB,,,,,TVARMAX CAF BLEND-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+max-caf-blend,,,,,,,,,Standard,,,5 LB,,,,,TVARMAX CAF BLEND-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+max-caf-blend,,,,,,,,,Standard,,,12 LB,,,,,TVARMAX CAF BLEND-ST-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+max-caf-blend,,,,,,,,,Whole Bean,,,12oz,,,,,TVARMAX CAF BLEND-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+max-caf-blend,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARMAX CAF BLEND-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+max-caf-blend,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARMAX CAF BLEND-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+max-caf-blend,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARMAX CAF BLEND-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+max-caf-blend,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARMAX CAF BLEND-WH-NA-12LB,7257.47792,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,140.00,
+kopi-safari,Kopi Safari,"Post roast blend. lively and grounding,a perfect harmony of brightness and depth.",Mangy Dog Coffee,,"",blend,true,Grind,Coarse,,Size,12oz,,,,,TVARKOPI SAFARI-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_9c2a1c35-e698-4781-9e36-a459e234cb2a.jpg?v=1762966298,1,"",false,,,,oz,,15.95,active
+kopi-safari,,,,,,,,,Coarse,,,1 LB,,,,,TVARKOPI SAFARI-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+kopi-safari,,,,,,,,,Coarse,,,2 LB,,,,,TVARKOPI SAFARI-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+kopi-safari,,,,,,,,,Coarse,,,5 LB,,,,,TVARKOPI SAFARI-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+kopi-safari,,,,,,,,,Espresso,,,12oz,,,,,TVARKOPI SAFARI-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+kopi-safari,,,,,,,,,Espresso,,,1 LB,,,,,TVARKOPI SAFARI-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+kopi-safari,,,,,,,,,Espresso,,,2 LB,,,,,TVARKOPI SAFARI-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+kopi-safari,,,,,,,,,Espresso,,,5 LB,,,,,TVARKOPI SAFARI-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+kopi-safari,,,,,,,,,Standard,,,12oz,,,,,TVARKOPI SAFARI-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+kopi-safari,,,,,,,,,Standard,,,1 LB,,,,,TVARKOPI SAFARI-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+kopi-safari,,,,,,,,,Standard,,,2 LB,,,,,TVARKOPI SAFARI-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+kopi-safari,,,,,,,,,Standard,,,5 LB,,,,,TVARKOPI SAFARI-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+kopi-safari,,,,,,,,,Whole Bean,,,12oz,,,,,TVARKOPI SAFARI-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.95,
+kopi-safari,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARKOPI SAFARI-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.50,
+kopi-safari,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARKOPI SAFARI-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,36.00,
+kopi-safari,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARKOPI SAFARI-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,69.00,
+instant-coffee,Instant Coffee,30 servings of instant coffee in a resealable pouch.,Mangy Dog Coffee,,"",blend,true,Grind,Standard,,Size,3oz,,,,,TVARINSTANT COFFEE-ST-NA-3OZ,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_d2eb572f-945f-4565-8856-2e57c3f38f3c.jpg?v=1762966307,1,"",false,,,,oz,,16.00,active
+coffee-with-mushrooms-dark-roast,Coffee with Mushrooms Dark Roast,"Specialty‑grade coffee infused with Lion’s Mane, Cordyceps, and Reishi mushrooms.",Mangy Dog Coffee,,"",blend,true,Grind,Standard,,Size,8oz,,,,,TVARCOFFEE WITH MUSHROOMS DARK ROAST-ST-NA-8OZ,2721.55422,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_1d261d11-292e-42d8-a206-34f36c96b6f7.jpg?v=1762966316,1,"",false,,,,oz,,16.00,active
+coffee-with-mushrooms-medium-roast,Coffee with Mushrooms Medium Roast,"Specialty‑grade coffee infused with Lion’s Mane, Cordyceps, and Reishi mushrooms.",Mangy Dog Coffee,,"",blend,true,Grind,Standard,,Size,8oz,,,,,TVARCOFFEE WITH MUSHROOMS MEDIUM ROAST-ST-NA-8OZ,2721.55422,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_e2097472-e094-4b51-9ac9-d1e7d29d49f5.jpg?v=1762966327,1,"",false,,,,oz,,16.00,active
+bali-blue,Bali Blue,"<p><strong>Roast</strong>: Med-dark</p>
+            <p><strong>Tasting Profile</strong>: Dark chocolate, molasses, brown sugar</p>
+            <p><strong>Grower</strong>: Smallholder farmers from Kintamani</p>
+            <p><strong>Variety</strong>: Bourbon, Typica, Catimor</p>
+            <p><strong>Region</strong>: Kintamani, Bali, Indonesia</p>
+            <p><strong>Altitude</strong>: 1200-1600 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Hand picked, wet-hulled and dried on raised beds.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARBALI BLUE-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_40c5908d-566b-4f3e-b8c9-f6a07a73025f.jpg?v=1762966335,1,"",false,,,,oz,,16.50,active
+bali-blue,,,,,,,,,Coarse,,,1 LB,,,,,TVARBALI BLUE-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+bali-blue,,,,,,,,,Coarse,,,2 LB,,,,,TVARBALI BLUE-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+bali-blue,,,,,,,,,Coarse,,,5 LB,,,,,TVARBALI BLUE-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+bali-blue,,,,,,,,,Coarse,,,12 LB,,,,,TVARBALI BLUE-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,145.87,
+bali-blue,,,,,,,,,Espresso,,,12oz,,,,,TVARBALI BLUE-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+bali-blue,,,,,,,,,Espresso,,,1 LB,,,,,TVARBALI BLUE-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+bali-blue,,,,,,,,,Espresso,,,2 LB,,,,,TVARBALI BLUE-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+bali-blue,,,,,,,,,Espresso,,,5 LB,,,,,TVARBALI BLUE-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+bali-blue,,,,,,,,,Espresso,,,12 LB,,,,,TVARBALI BLUE-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,145.87,
+bali-blue,,,,,,,,,Standard,,,12oz,,,,,TVARBALI BLUE-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+bali-blue,,,,,,,,,Standard,,,1 LB,,,,,TVARBALI BLUE-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+bali-blue,,,,,,,,,Standard,,,2 LB,,,,,TVARBALI BLUE-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+bali-blue,,,,,,,,,Standard,,,5 LB,,,,,TVARBALI BLUE-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+bali-blue,,,,,,,,,Standard,,,12 LB,,,,,TVARBALI BLUE-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,145.87,
+bali-blue,,,,,,,,,Whole Bean,,,12oz,,,,,TVARBALI BLUE-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+bali-blue,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARBALI BLUE-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+bali-blue,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARBALI BLUE-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+bali-blue,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARBALI BLUE-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+bali-blue,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARBALI BLUE-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,145.87,
+brazil-santos,Brazil Santos,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Elegant, smooth cup with cocoa notes.</p>
+            <p><strong>Grower</strong>: Fazenda Santa Barbara, Sao Francisco, Santo Antonio</p>
+            <p><strong>Variety</strong>: Catuai and Mundo Novo</p>
+            <p><strong>Region</strong>: Parana and Sao Paulo Brazil</p>
+            <p><strong>Altitude</strong>: 750-1050 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Pulped natural and dried in the Sun</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARBRAZIL SANTOS-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_483d5708-c42e-43ff-b236-7ce40a262519.jpg?v=1762966363,1,"",false,,,,oz,,16.50,active
+brazil-santos,,,,,,,,,Coarse,,,1 LB,,,,,TVARBRAZIL SANTOS-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+brazil-santos,,,,,,,,,Coarse,,,2 LB,,,,,TVARBRAZIL SANTOS-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+brazil-santos,,,,,,,,,Coarse,,,5 LB,,,,,TVARBRAZIL SANTOS-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+brazil-santos,,,,,,,,,Coarse,,,12 LB,,,,,TVARBRAZIL SANTOS-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+brazil-santos,,,,,,,,,Espresso,,,12oz,,,,,TVARBRAZIL SANTOS-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+brazil-santos,,,,,,,,,Espresso,,,1 LB,,,,,TVARBRAZIL SANTOS-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+brazil-santos,,,,,,,,,Espresso,,,2 LB,,,,,TVARBRAZIL SANTOS-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+brazil-santos,,,,,,,,,Espresso,,,5 LB,,,,,TVARBRAZIL SANTOS-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+brazil-santos,,,,,,,,,Espresso,,,12 LB,,,,,TVARBRAZIL SANTOS-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+brazil-santos,,,,,,,,,Standard,,,12oz,,,,,TVARBRAZIL SANTOS-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+brazil-santos,,,,,,,,,Standard,,,1 LB,,,,,TVARBRAZIL SANTOS-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+brazil-santos,,,,,,,,,Standard,,,2 LB,,,,,TVARBRAZIL SANTOS-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+brazil-santos,,,,,,,,,Standard,,,5 LB,,,,,TVARBRAZIL SANTOS-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+brazil-santos,,,,,,,,,Standard,,,12 LB,,,,,TVARBRAZIL SANTOS-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+brazil-santos,,,,,,,,,Whole Bean,,,12oz,,,,,TVARBRAZIL SANTOS-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+brazil-santos,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARBRAZIL SANTOS-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+brazil-santos,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARBRAZIL SANTOS-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+brazil-santos,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARBRAZIL SANTOS-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+brazil-santos,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARBRAZIL SANTOS-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+colombia,Colombia,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Dried orange, berry, chocolate</p>
+            <p><strong>Grower</strong>: Smallholder farmers from Medellin</p>
+            <p><strong>Variety</strong>: Castillo, Caturra, Colombia, &amp; Typica</p>
+            <p><strong>Region</strong>: Medellin, Antioquia, Colombia</p>
+            <p><strong>Altitude</strong>: 1300-1500 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Fully washed and dried in solar dryers to protect the coffee from rain.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARCOLOMBIA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_0c9f3ffc-2b4c-4c77-871f-00af5ae4f2bc.jpg?v=1762966372,1,"",false,,,,oz,,16.25,active
+colombia,,,,,,,,,Coarse,,,1 LB,,,,,TVARCOLOMBIA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+colombia,,,,,,,,,Coarse,,,2 LB,,,,,TVARCOLOMBIA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+colombia,,,,,,,,,Coarse,,,5 LB,,,,,TVARCOLOMBIA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+colombia,,,,,,,,,Coarse,,,12 LB,,,,,TVARCOLOMBIA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+colombia,,,,,,,,,Espresso,,,12oz,,,,,TVARCOLOMBIA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+colombia,,,,,,,,,Espresso,,,1 LB,,,,,TVARCOLOMBIA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+colombia,,,,,,,,,Espresso,,,2 LB,,,,,TVARCOLOMBIA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+colombia,,,,,,,,,Espresso,,,5 LB,,,,,TVARCOLOMBIA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+colombia,,,,,,,,,Espresso,,,12 LB,,,,,TVARCOLOMBIA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+colombia,,,,,,,,,Standard,,,12oz,,,,,TVARCOLOMBIA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+colombia,,,,,,,,,Standard,,,1 LB,,,,,TVARCOLOMBIA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+colombia,,,,,,,,,Standard,,,2 LB,,,,,TVARCOLOMBIA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+colombia,,,,,,,,,Standard,,,5 LB,,,,,TVARCOLOMBIA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+colombia,,,,,,,,,Standard,,,12 LB,,,,,TVARCOLOMBIA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+colombia,,,,,,,,,Whole Bean,,,12oz,,,,,TVARCOLOMBIA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+colombia,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARCOLOMBIA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+colombia,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARCOLOMBIA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+colombia,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARCOLOMBIA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+colombia,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARCOLOMBIA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+costa-rica,Costa Rica,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Sweet apple, raisin, honey</p>
+            <p><strong>Grower</strong>: Micro farms in Alajuela</p>
+            <p><strong>Variety</strong>: Caturra &amp; Catuai</p>
+            <p><strong>Region</strong>: Alajuela, Costa Rica</p>
+            <p><strong>Altitude</strong>: 1300-1445 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Eco-pulped and dried in the sun.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARCOSTA RICA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_fb4d822b-d427-4f8e-8755-5c74bd7ab45b.jpg?v=1762966377,1,"",false,,,,oz,,16.25,active
+costa-rica,,,,,,,,,Coarse,,,1 LB,,,,,TVARCOSTA RICA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+costa-rica,,,,,,,,,Coarse,,,2 LB,,,,,TVARCOSTA RICA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+costa-rica,,,,,,,,,Coarse,,,5 LB,,,,,TVARCOSTA RICA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+costa-rica,,,,,,,,,Coarse,,,12 LB,,,,,TVARCOSTA RICA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+costa-rica,,,,,,,,,Espresso,,,12oz,,,,,TVARCOSTA RICA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+costa-rica,,,,,,,,,Espresso,,,1 LB,,,,,TVARCOSTA RICA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+costa-rica,,,,,,,,,Espresso,,,2 LB,,,,,TVARCOSTA RICA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+costa-rica,,,,,,,,,Espresso,,,5 LB,,,,,TVARCOSTA RICA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+costa-rica,,,,,,,,,Espresso,,,12 LB,,,,,TVARCOSTA RICA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+costa-rica,,,,,,,,,Standard,,,12oz,,,,,TVARCOSTA RICA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+costa-rica,,,,,,,,,Standard,,,1 LB,,,,,TVARCOSTA RICA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+costa-rica,,,,,,,,,Standard,,,2 LB,,,,,TVARCOSTA RICA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+costa-rica,,,,,,,,,Standard,,,5 LB,,,,,TVARCOSTA RICA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+costa-rica,,,,,,,,,Standard,,,12 LB,,,,,TVARCOSTA RICA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+costa-rica,,,,,,,,,Whole Bean,,,12oz,,,,,TVARCOSTA RICA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+costa-rica,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARCOSTA RICA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+costa-rica,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARCOSTA RICA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+costa-rica,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARCOSTA RICA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+costa-rica,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARCOSTA RICA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+ethiopia-natural,Ethiopia Natural,"<p><strong>Roast</strong>: Med-light</p>
+            <p><strong>Tasting Profile</strong>: Milk chocolate, fruity, caramel</p>
+            <p><strong>Grower</strong>: Smallholder farmers from thee Sidama zone.</p>
+            <p><strong>Variety</strong>: Indigenous Heirloom Cultivars</p>
+            <p><strong>Region</strong>: Sidama Zone, Ethiopia</p>
+            <p><strong>Altitude</strong>: 1700-1900 M</p>
+            <p><strong>Soil Type</strong>: Nitisols</p>
+            <p><strong>Process</strong>: Full natural, sorted by hand.  Dried on raised beds.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARETHIOPIA NATURAL-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_4c7f1281-cbb7-464a-bfe1-5088c9a71425.jpg?v=1762966383,1,"",false,,,,oz,,16.25,active
+ethiopia-natural,,,,,,,,,Coarse,,,1 LB,,,,,TVARETHIOPIA NATURAL-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+ethiopia-natural,,,,,,,,,Coarse,,,2 LB,,,,,TVARETHIOPIA NATURAL-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+ethiopia-natural,,,,,,,,,Coarse,,,5 LB,,,,,TVARETHIOPIA NATURAL-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+ethiopia-natural,,,,,,,,,Coarse,,,12 LB,,,,,TVARETHIOPIA NATURAL-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+ethiopia-natural,,,,,,,,,Espresso,,,12oz,,,,,TVARETHIOPIA NATURAL-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+ethiopia-natural,,,,,,,,,Espresso,,,1 LB,,,,,TVARETHIOPIA NATURAL-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+ethiopia-natural,,,,,,,,,Espresso,,,2 LB,,,,,TVARETHIOPIA NATURAL-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+ethiopia-natural,,,,,,,,,Espresso,,,5 LB,,,,,TVARETHIOPIA NATURAL-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+ethiopia-natural,,,,,,,,,Espresso,,,12 LB,,,,,TVARETHIOPIA NATURAL-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+ethiopia-natural,,,,,,,,,Standard,,,12oz,,,,,TVARETHIOPIA NATURAL-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+ethiopia-natural,,,,,,,,,Standard,,,1 LB,,,,,TVARETHIOPIA NATURAL-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+ethiopia-natural,,,,,,,,,Standard,,,2 LB,,,,,TVARETHIOPIA NATURAL-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+ethiopia-natural,,,,,,,,,Standard,,,5 LB,,,,,TVARETHIOPIA NATURAL-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+ethiopia-natural,,,,,,,,,Standard,,,12 LB,,,,,TVARETHIOPIA NATURAL-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+ethiopia-natural,,,,,,,,,Whole Bean,,,12oz,,,,,TVARETHIOPIA NATURAL-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+ethiopia-natural,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARETHIOPIA NATURAL-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+ethiopia-natural,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARETHIOPIA NATURAL-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+ethiopia-natural,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARETHIOPIA NATURAL-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+ethiopia-natural,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARETHIOPIA NATURAL-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+guatemala,Guatemala,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Dark chocolate, bright fruit, butterscotch.</p>
+            <p><strong>Grower</strong>: Smallholder farmers from Antigua</p>
+            <p><strong>Variety</strong>: Bourbon, Catuai, Caturra, &amp; Typica</p>
+            <p><strong>Region</strong>: Antigua Guatemala</p>
+            <p><strong>Altitude</strong>: 1200-1616 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Fully washed and sun dried.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARGUATEMALA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_6c1d38db-05c9-471b-9d5e-94ac057f1e39.jpg?v=1762966389,1,"",false,,,,oz,,16.25,active
+guatemala,,,,,,,,,Coarse,,,1 LB,,,,,TVARGUATEMALA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+guatemala,,,,,,,,,Coarse,,,2 LB,,,,,TVARGUATEMALA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+guatemala,,,,,,,,,Coarse,,,5 LB,,,,,TVARGUATEMALA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+guatemala,,,,,,,,,Coarse,,,12 LB,,,,,TVARGUATEMALA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+guatemala,,,,,,,,,Espresso,,,12oz,,,,,TVARGUATEMALA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+guatemala,,,,,,,,,Espresso,,,1 LB,,,,,TVARGUATEMALA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+guatemala,,,,,,,,,Espresso,,,2 LB,,,,,TVARGUATEMALA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+guatemala,,,,,,,,,Espresso,,,5 LB,,,,,TVARGUATEMALA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+guatemala,,,,,,,,,Espresso,,,12 LB,,,,,TVARGUATEMALA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+guatemala,,,,,,,,,Standard,,,12oz,,,,,TVARGUATEMALA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+guatemala,,,,,,,,,Standard,,,1 LB,,,,,TVARGUATEMALA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+guatemala,,,,,,,,,Standard,,,2 LB,,,,,TVARGUATEMALA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+guatemala,,,,,,,,,Standard,,,5 LB,,,,,TVARGUATEMALA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+guatemala,,,,,,,,,Standard,,,12 LB,,,,,TVARGUATEMALA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+guatemala,,,,,,,,,Whole Bean,,,12oz,,,,,TVARGUATEMALA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+guatemala,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARGUATEMALA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+guatemala,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARGUATEMALA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+guatemala,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARGUATEMALA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+guatemala,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARGUATEMALA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+honduras,Honduras,"<p><strong>Roast</strong>: Medium-dark</p>
+            <p><strong>Tasting Profile</strong>: Caramel, spice, brown sugar.</p>
+            <p><strong>Grower</strong>: 1500 grower/members from Cafe Organics Marcala</p>
+            <p><strong>Variety</strong>: Bourbon, Catuai, Caturra, Lempira, &amp; Typica</p>
+            <p><strong>Region</strong>: Marcala, La Paz, Honduras</p>
+            <p><strong>Altitude</strong>: 1300-1700 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Fully washed and sun dried.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARHONDURAS-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_09885778-f7e0-4ff3-bfe3-2573ecb7d200.jpg?v=1762966393,1,"",false,,,,oz,,16.25,active
+honduras,,,,,,,,,Coarse,,,1 LB,,,,,TVARHONDURAS-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+honduras,,,,,,,,,Coarse,,,2 LB,,,,,TVARHONDURAS-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+honduras,,,,,,,,,Coarse,,,5 LB,,,,,TVARHONDURAS-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+honduras,,,,,,,,,Coarse,,,12 LB,,,,,TVARHONDURAS-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+honduras,,,,,,,,,Espresso,,,12oz,,,,,TVARHONDURAS-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+honduras,,,,,,,,,Espresso,,,1 LB,,,,,TVARHONDURAS-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+honduras,,,,,,,,,Espresso,,,2 LB,,,,,TVARHONDURAS-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+honduras,,,,,,,,,Espresso,,,5 LB,,,,,TVARHONDURAS-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+honduras,,,,,,,,,Espresso,,,12 LB,,,,,TVARHONDURAS-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+honduras,,,,,,,,,Standard,,,12oz,,,,,TVARHONDURAS-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+honduras,,,,,,,,,Standard,,,1 LB,,,,,TVARHONDURAS-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+honduras,,,,,,,,,Standard,,,2 LB,,,,,TVARHONDURAS-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+honduras,,,,,,,,,Standard,,,5 LB,,,,,TVARHONDURAS-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+honduras,,,,,,,,,Standard,,,12 LB,,,,,TVARHONDURAS-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+honduras,,,,,,,,,Whole Bean,,,12oz,,,,,TVARHONDURAS-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+honduras,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARHONDURAS-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+honduras,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARHONDURAS-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+honduras,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARHONDURAS-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+honduras,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARHONDURAS-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+mexico,Mexico,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Chocolate, cinnamon, green apple.</p>
+            <p><strong>Grower</strong>: Coffee growers from Chiapas and Oaxaca </p>
+            <p><strong>Variety</strong>: Typica, Criollo, Bourbon, Mundo Novo, Caturra</p>
+            <p><strong>Region</strong>: Chipias and Oaxaca, Mexico</p>
+            <p><strong>Altitude</strong>: 900-1000 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Fully washed and sun dried.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARMEXICO -CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_7fec6c67-9bfb-4edc-b808-6a7d968c073b.jpg?v=1762966396,1,"",false,,,,oz,,16.25,active
+mexico,,,,,,,,,Coarse,,,1 LB,,,,,TVARMEXICO -CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+mexico,,,,,,,,,Coarse,,,2 LB,,,,,TVARMEXICO -CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+mexico,,,,,,,,,Coarse,,,5 LB,,,,,TVARMEXICO -CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+mexico,,,,,,,,,Coarse,,,12 LB,,,,,TVARMEXICO -CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+mexico,,,,,,,,,Espresso,,,12oz,,,,,TVARMEXICO -ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+mexico,,,,,,,,,Espresso,,,1 LB,,,,,TVARMEXICO -ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+mexico,,,,,,,,,Espresso,,,2 LB,,,,,TVARMEXICO -ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+mexico,,,,,,,,,Espresso,,,5 LB,,,,,TVARMEXICO -ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+mexico,,,,,,,,,Espresso,,,12 LB,,,,,TVARMEXICO -ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+mexico,,,,,,,,,Standard,,,12oz,,,,,TVARMEXICO -ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+mexico,,,,,,,,,Standard,,,1 LB,,,,,TVARMEXICO -ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+mexico,,,,,,,,,Standard,,,2 LB,,,,,TVARMEXICO -ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+mexico,,,,,,,,,Standard,,,5 LB,,,,,TVARMEXICO -ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+mexico,,,,,,,,,Standard,,,12 LB,,,,,TVARMEXICO -ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+mexico,,,,,,,,,Whole Bean,,,12oz,,,,,TVARMEXICO -WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+mexico,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARMEXICO -WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+mexico,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARMEXICO -WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+mexico,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARMEXICO -WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+mexico,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARMEXICO -WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+nicaragua,Nicaragua,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Cocoa, floral and citrus tones.</p>
+            <p><strong>Grower</strong>: Smallholder farmers from Molino Norte</p>
+            <p><strong>Variety</strong>: Yellow and Red CAtuai, Catimor &amp; Parainema</p>
+            <p><strong>Region</strong>: Molino Norte, Matagalpa, Nicaragua</p>
+            <p><strong>Altitude</strong>: 900-1590 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Fully washed, fermented for 12-14 hours and then dried on patios and raised beds</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARNICARAGUA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_64816cf6-da62-4827-8c24-62320fac5c6b.jpg?v=1762966407,1,"",false,,,,oz,,16.25,active
+nicaragua,,,,,,,,,Coarse,,,1 LB,,,,,TVARNICARAGUA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+nicaragua,,,,,,,,,Coarse,,,2 LB,,,,,TVARNICARAGUA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+nicaragua,,,,,,,,,Coarse,,,5 LB,,,,,TVARNICARAGUA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+nicaragua,,,,,,,,,Coarse,,,12 LB,,,,,TVARNICARAGUA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+nicaragua,,,,,,,,,Espresso,,,12oz,,,,,TVARNICARAGUA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+nicaragua,,,,,,,,,Espresso,,,1 LB,,,,,TVARNICARAGUA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+nicaragua,,,,,,,,,Espresso,,,2 LB,,,,,TVARNICARAGUA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+nicaragua,,,,,,,,,Espresso,,,5 LB,,,,,TVARNICARAGUA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+nicaragua,,,,,,,,,Espresso,,,12 LB,,,,,TVARNICARAGUA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+nicaragua,,,,,,,,,Standard,,,12oz,,,,,TVARNICARAGUA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+nicaragua,,,,,,,,,Standard,,,1 LB,,,,,TVARNICARAGUA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+nicaragua,,,,,,,,,Standard,,,2 LB,,,,,TVARNICARAGUA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+nicaragua,,,,,,,,,Standard,,,5 LB,,,,,TVARNICARAGUA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+nicaragua,,,,,,,,,Standard,,,12 LB,,,,,TVARNICARAGUA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+nicaragua,,,,,,,,,Whole Bean,,,12oz,,,,,TVARNICARAGUA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+nicaragua,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARNICARAGUA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+nicaragua,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARNICARAGUA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+nicaragua,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARNICARAGUA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+nicaragua,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARNICARAGUA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea,Papua New Guinea,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Caramel, honey and fruit.</p>
+            <p><strong>Grower</strong>: Small agricultural cooperatives in Chimbu.</p>
+            <p><strong>Variety</strong>: Bourbon &amp; Typica</p>
+            <p><strong>Region</strong>: Chimbu Province, Papua New Guinea</p>
+            <p><strong>Altitude</strong>: 1350 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Fully washed and dried in the sun.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARPAPUA NEW GUINEA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_afe2501d-6972-47be-b3d7-01034ff899e1.jpg?v=1762966412,1,"",false,,,,oz,,16.25,active
+papua-new-guinea,,,,,,,,,Coarse,,,1 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea,,,,,,,,,Coarse,,,2 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea,,,,,,,,,Coarse,,,5 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea,,,,,,,,,Coarse,,,12 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea,,,,,,,,,Espresso,,,12oz,,,,,TVARPAPUA NEW GUINEA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea,,,,,,,,,Espresso,,,1 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea,,,,,,,,,Espresso,,,2 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea,,,,,,,,,Espresso,,,5 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea,,,,,,,,,Espresso,,,12 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea,,,,,,,,,Standard,,,12oz,,,,,TVARPAPUA NEW GUINEA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea,,,,,,,,,Standard,,,1 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea,,,,,,,,,Standard,,,2 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea,,,,,,,,,Standard,,,5 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea,,,,,,,,,Standard,,,12 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea,,,,,,,,,Whole Bean,,,12oz,,,,,TVARPAPUA NEW GUINEA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea-1,Papua New Guinea,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Caramel, honey and fruit.</p>
+            <p><strong>Grower</strong>: Small agricultural cooperatives in Chimbu.</p>
+            <p><strong>Variety</strong>: Bourbon &amp; Typica</p>
+            <p><strong>Region</strong>: Chimbu Province, Papua New Guinea</p>
+            <p><strong>Altitude</strong>: 1350 M</p>
+            <p><strong>Soil Type</strong>: Volcanic Loam</p>
+            <p><strong>Process</strong>: Fully washed and dried in the sun.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARPAPUA NEW GUINEA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_dea693e3-ce78-483c-bd6f-434be406854f.jpg?v=1762966415,1,"",false,,,,oz,,16.25,active
+papua-new-guinea-1,,,,,,,,,Coarse,,,1 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea-1,,,,,,,,,Coarse,,,2 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea-1,,,,,,,,,Coarse,,,5 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea-1,,,,,,,,,Coarse,,,12 LB,,,,,TVARPAPUA NEW GUINEA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea-1,,,,,,,,,Espresso,,,12oz,,,,,TVARPAPUA NEW GUINEA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea-1,,,,,,,,,Espresso,,,1 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea-1,,,,,,,,,Espresso,,,2 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea-1,,,,,,,,,Espresso,,,5 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea-1,,,,,,,,,Espresso,,,12 LB,,,,,TVARPAPUA NEW GUINEA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea-1,,,,,,,,,Standard,,,12oz,,,,,TVARPAPUA NEW GUINEA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea-1,,,,,,,,,Standard,,,1 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea-1,,,,,,,,,Standard,,,2 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea-1,,,,,,,,,Standard,,,5 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea-1,,,,,,,,,Standard,,,12 LB,,,,,TVARPAPUA NEW GUINEA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+papua-new-guinea-1,,,,,,,,,Whole Bean,,,12oz,,,,,TVARPAPUA NEW GUINEA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+papua-new-guinea-1,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+papua-new-guinea-1,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+papua-new-guinea-1,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+papua-new-guinea-1,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARPAPUA NEW GUINEA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+peru,Peru,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Salted caramel, silky sweet, citrus</p>
+            <p><strong>Grower</strong>: Cooperativa Agricola de Servicisios Norandino</p>
+            <p><strong>Variety</strong>: Caturra, Bourpon, Catuai, Pache, &amp; Catimor</p>
+            <p><strong>Region</strong>: Piura, Amazonas, Peru</p>
+            <p><strong>Altitude</strong>: 1100-1700 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Gully washed and dried in the sun.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARPERU-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_e22b565f-b897-4d76-acfb-1503f9f313d2.jpg?v=1762966422,1,"",false,,,,oz,,16.25,active
+peru,,,,,,,,,Coarse,,,1 LB,,,,,TVARPERU-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+peru,,,,,,,,,Coarse,,,2 LB,,,,,TVARPERU-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+peru,,,,,,,,,Coarse,,,5 LB,,,,,TVARPERU-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+peru,,,,,,,,,Coarse,,,12 LB,,,,,TVARPERU-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+peru,,,,,,,,,Espresso,,,12oz,,,,,TVARPERU-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+peru,,,,,,,,,Espresso,,,1 LB,,,,,TVARPERU-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+peru,,,,,,,,,Espresso,,,2 LB,,,,,TVARPERU-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+peru,,,,,,,,,Espresso,,,5 LB,,,,,TVARPERU-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+peru,,,,,,,,,Espresso,,,12 LB,,,,,TVARPERU-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+peru,,,,,,,,,Standard,,,12oz,,,,,TVARPERU-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+peru,,,,,,,,,Standard,,,1 LB,,,,,TVARPERU-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+peru,,,,,,,,,Standard,,,2 LB,,,,,TVARPERU-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+peru,,,,,,,,,Standard,,,5 LB,,,,,TVARPERU-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+peru,,,,,,,,,Standard,,,12 LB,,,,,TVARPERU-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+peru,,,,,,,,,Whole Bean,,,12oz,,,,,TVARPERU-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+peru,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARPERU-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+peru,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARPERU-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+peru,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARPERU-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+peru,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARPERU-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+peru-decaf,Peru Decaf,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Caramel, smooth, citrus</p>
+            <p><strong>Grower</strong>: Cooperativa Agricola de Servicisios Norandino</p>
+            <p><strong>Variety</strong>: Caturra, Bourpon, Catuai, Pache, &amp; Catimor</p>
+            <p><strong>Region</strong>: Piura, Amazonas, Peru</p>
+            <p><strong>Altitude</strong>: 1100-1700 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Gully washed and dried in the sun and decaffeinated using the Swiss Water Process.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARPERU DECAF-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_b0d6eeeb-c79a-482d-9709-d53c416c4b16.jpg?v=1762966431,1,"",false,,,,oz,,16.50,active
+peru-decaf,,,,,,,,,Coarse,,,1 LB,,,,,TVARPERU DECAF-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+peru-decaf,,,,,,,,,Coarse,,,2 LB,,,,,TVARPERU DECAF-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+peru-decaf,,,,,,,,,Coarse,,,5 LB,,,,,TVARPERU DECAF-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+peru-decaf,,,,,,,,,Coarse,,,12 LB,,,,,TVARPERU DECAF-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+peru-decaf,,,,,,,,,Espresso,,,12oz,,,,,TVARPERU DECAF-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+peru-decaf,,,,,,,,,Espresso,,,1 LB,,,,,TVARPERU DECAF-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+peru-decaf,,,,,,,,,Espresso,,,2 LB,,,,,TVARPERU DECAF-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+peru-decaf,,,,,,,,,Espresso,,,5 LB,,,,,TVARPERU DECAF-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+peru-decaf,,,,,,,,,Espresso,,,12 LB,,,,,TVARPERU DECAF-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+peru-decaf,,,,,,,,,Standard,,,12oz,,,,,TVARPERU DECAF-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+peru-decaf,,,,,,,,,Standard,,,1 LB,,,,,TVARPERU DECAF-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+peru-decaf,,,,,,,,,Standard,,,2 LB,,,,,TVARPERU DECAF-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+peru-decaf,,,,,,,,,Standard,,,5 LB,,,,,TVARPERU DECAF-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+peru-decaf,,,,,,,,,Standard,,,12 Pack,,,,,TVARPERU DECAF-ST-NA-12PK,226.796185,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+peru-decaf,,,,,,,,,Standard,,,12 LB,,,,,TVARPERU DECAF-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+peru-decaf,,,,,,,,,Whole Bean,,,12oz,,,,,TVARPERU DECAF-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+peru-decaf,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARPERU DECAF-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.45,
+peru-decaf,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARPERU DECAF-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.50,
+peru-decaf,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARPERU DECAF-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,72.00,
+peru-decaf,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARPERU DECAF-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,155.00,
+tanzania,Tanzania,"<p><strong>Roast</strong>: Medium-light</p>
+            <p><strong>Tasting Profile</strong>: Pear, floral, jasmine, strawberry.</p>
+            <p><strong>Grower</strong>: Small cooperative farmers in the Mbeya area</p>
+            <p><strong>Variety</strong>: Bourbon &amp; Kent</p>
+            <p><strong>Region</strong>: Mbeya Region of Tanzania</p>
+            <p><strong>Altitude</strong>: 1200-1900 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Fully washed and dried on raised beds</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,TVARTANZANIA-CO-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_2ff38551-bedb-4bbf-ab6c-5f45df7d9351.jpg?v=1762966436,1,"",false,,,,oz,,16.25,active
+tanzania,,,,,,,,,Coarse,,,1 LB,,,,,TVARTANZANIA-CO-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+tanzania,,,,,,,,,Coarse,,,2 LB,,,,,TVARTANZANIA-CO-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+tanzania,,,,,,,,,Coarse,,,5 LB,,,,,TVARTANZANIA-CO-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+tanzania,,,,,,,,,Coarse,,,12 LB,,,,,TVARTANZANIA-CO-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+tanzania,,,,,,,,,Espresso,,,12oz,,,,,TVARTANZANIA-ES-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+tanzania,,,,,,,,,Espresso,,,1 LB,,,,,TVARTANZANIA-ES-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+tanzania,,,,,,,,,Espresso,,,2 LB,,,,,TVARTANZANIA-ES-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+tanzania,,,,,,,,,Espresso,,,5 LB,,,,,TVARTANZANIA-ES-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+tanzania,,,,,,,,,Espresso,,,12 LB,,,,,TVARTANZANIA-ES-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+tanzania,,,,,,,,,Standard,,,12oz,,,,,TVARTANZANIA-ST-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+tanzania,,,,,,,,,Standard,,,1 LB,,,,,TVARTANZANIA-ST-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+tanzania,,,,,,,,,Standard,,,2 LB,,,,,TVARTANZANIA-ST-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+tanzania,,,,,,,,,Standard,,,5 LB,,,,,TVARTANZANIA-ST-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+tanzania,,,,,,,,,Standard,,,12 LB,,,,,TVARTANZANIA-ST-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+tanzania,,,,,,,,,Whole Bean,,,12oz,,,,,TVARTANZANIA-WH-NA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+tanzania,,,,,,,,,Whole Bean,,,1 LB,,,,,TVARTANZANIA-WH-NA-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+tanzania,,,,,,,,,Whole Bean,,,2 LB,,,,,TVARTANZANIA-WH-NA-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+tanzania,,,,,,,,,Whole Bean,,,5 LB,,,,,TVARTANZANIA-WH-NA-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+tanzania,,,,,,,,,Whole Bean,,,12 LB,,,,,TVARTANZANIA-WH-NA-12LB,3401.942775,dripshipper,deny,dripshipper,189.99,,true,true,,,,,,,,,,,,,oz,,144.04,
+french-roast-1,French Roast,Our dark roast.  Blend of specialty grade coffee from Central America,Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,FRENCH  Roast-CO-DA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_dd090c56-0c93-41f9-9517-99416b40d007.jpg?v=1762966458,1,"",false,,,,oz,,15.50,active
+french-roast-1,,,,,,,,,Coarse,,,1 LB,,,,,FRENCH  Roast-CO-DA-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+french-roast-1,,,,,,,,,Coarse,,,2 LB,,,,,FRENCH  Roast-CO-DA-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+french-roast-1,,,,,,,,,Coarse,,,5 LB,,,,,FRENCH  Roast-CO-DA-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+french-roast-1,,,,,,,,,Espresso,,,12oz,,,,,FRENCH  Roast-ES-DA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+french-roast-1,,,,,,,,,Espresso,,,1 LB,,,,,FRENCH  Roast-ES-DA-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+french-roast-1,,,,,,,,,Espresso,,,2 LB,,,,,FRENCH  Roast-ES-DA-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+french-roast-1,,,,,,,,,Espresso,,,5 LB,,,,,FRENCH  Roast-ES-DA-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+french-roast-1,,,,,,,,,Standard,,,12oz,,,,,FRENCH  Roast-ST-DA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+french-roast-1,,,,,,,,,Standard,,,1 LB,,,,,FRENCH  Roast-ST-DA-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+french-roast-1,,,,,,,,,Standard,,,2 LB,,,,,FRENCH  Roast-ST-DA-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+french-roast-1,,,,,,,,,Standard,,,5 LB,,,,,FRENCH  Roast-ST-DA-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+french-roast-1,,,,,,,,,Whole Bean,,,12oz,,,,,FRENCH  Roast-WH-DA-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,15.50,
+french-roast-1,,,,,,,,,Whole Bean,,,1 LB,,,,,FRENCH  Roast-WH-DA-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,20.25,
+french-roast-1,,,,,,,,,Whole Bean,,,2 LB,,,,,FRENCH  Roast-WH-DA-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,35.00,
+french-roast-1,,,,,,,,,Whole Bean,,,5 LB,,,,,FRENCH  Roast-WH-DA-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,67.50,
+sumatra,Sumatra,"<p>Cupping Notes: Medium Acidity, Syrupy Body, Dark Chocolate, Dried Fruit, Earthy, Long Lingering Body</p> <p> Region: Aceh, Takengon</p> <p>Coop: Koperasi Baitul Qiradh Baburrayyan (KBQB)</p> <p>Altitude: 1100 - 1600 M</p> <p>Processing: Giling Basha (Also known as Wet-Hulling)</p> <p>Varietal: Tim Tim, Typica, Ateng, Onan Ganjang, Jember</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,SUM  -CO-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_0c5cbd38-5487-4695-aebd-b7dcd8f726e4.jpg?v=1762966464,1,"",false,,,,oz,,16.50,active
+sumatra,,,,,,,,,Coarse,,,1 LB,,,,,SUM  -CO-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+sumatra,,,,,,,,,Coarse,,,2 LB,,,,,SUM  -CO-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+sumatra,,,,,,,,,Coarse,,,5 LB,,,,,SUM  -CO-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+sumatra,,,,,,,,,Espresso,,,12oz,,,,,SUM  -ES-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+sumatra,,,,,,,,,Espresso,,,1 LB,,,,,SUM  -ES-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+sumatra,,,,,,,,,Espresso,,,2 LB,,,,,SUM  -ES-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+sumatra,,,,,,,,,Espresso,,,5 LB,,,,,SUM  -ES-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+sumatra,,,,,,,,,Standard,,,12oz,,,,,SUM  -ST-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+sumatra,,,,,,,,,Standard,,,1 LB,,,,,SUM  -ST-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+sumatra,,,,,,,,,Standard,,,2 LB,,,,,SUM  -ST-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+sumatra,,,,,,,,,Standard,,,5 LB,,,,,SUM  -ST-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+sumatra,,,,,,,,,Whole Bean,,,12oz,,,,,SUM  -WH-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+sumatra,,,,,,,,,Whole Bean,,,1 LB,,,,,SUM  -WH-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.81,
+sumatra,,,,,,,,,Whole Bean,,,2 LB,,,,,SUM  -WH-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,38.17,
+sumatra,,,,,,,,,Whole Bean,,,5 LB,,,,,SUM  -WH-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+kenya,Kenya,"<p>Tasting Notes: Bright Acidity, Orange, Lemon, Floral, Effervescent</p> <p>Region: Othaya, Nyeri County</p> <p>Altitude: 1,700-1,890 M</p> <p>Process: Fully Washed and Dried on Raised Beds</p> <p>Variety: SL28, SL34, Ruiru 11, and Batian</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,KENYA  -CO-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_ad8e747b-b6df-4cd0-9b1a-04b7e2acab69.jpg?v=1762966468,1,"",false,,,,oz,,16.50,active
+kenya,,,,,,,,,Coarse,,,1 LB,,,,,KENYA  -CO-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+kenya,,,,,,,,,Coarse,,,2 LB,,,,,KENYA  -CO-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+kenya,,,,,,,,,Coarse,,,5 LB,,,,,KENYA  -CO-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+kenya,,,,,,,,,Espresso,,,12oz,,,,,KENYA  -ES-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+kenya,,,,,,,,,Espresso,,,1 LB,,,,,KENYA  -ES-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+kenya,,,,,,,,,Espresso,,,2 LB,,,,,KENYA  -ES-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+kenya,,,,,,,,,Espresso,,,5 LB,,,,,KENYA  -ES-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+kenya,,,,,,,,,Standard,,,12oz,,,,,KENYA  -ST-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+kenya,,,,,,,,,Standard,,,1 LB,,,,,KENYA  -ST-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+kenya,,,,,,,,,Standard,,,2 LB,,,,,KENYA  -ST-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+kenya,,,,,,,,,Standard,,,5 LB,,,,,KENYA  -ST-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+kenya,,,,,,,,,Whole Bean,,,12oz,,,,,KENYA  -WH-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.50,
+kenya,,,,,,,,,Whole Bean,,,1 LB,,,,,KENYA  -WH-ME-1 LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+kenya,,,,,,,,,Whole Bean,,,2 LB,,,,,KENYA  -WH-ME-2 LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+kenya,,,,,,,,,Whole Bean,,,5 LB,,,,,KENYA  -WH-ME-5 LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,73.08,
+mexico-coffee-pods,Mexico Coffee Pods,"<p>Tasting Notes: Medium Acidity, Creamy Body, Lemon, Brown Sugar, Dark Chocolate</p> <p>Region: Chiapas  Altitude: 1,400-1,900 M  Process: Washed  Variety: Typical, Catimor, and Bourbon</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Standard,,Size,12 Pack,,,,,12KMEXICO-DRIP-16OZ-BLACK,8504.8569375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_8515fbb3-8758-4639-b4d9-a36ce3841d6c.jpg?v=1762966474,1,"",false,,,,oz,,15.50,active
+peru-coffee-pods,Peru Coffee Pods,"<p><strong>Roast</strong>: Medium</p>
+            <p><strong>Tasting Profile</strong>: Salted caramel, silky sweet, citrus</p>
+            <p><strong>Grower</strong>: Cooperativa Agricola de Servicisios Norandino</p>
+            <p><strong>Variety</strong>: Caturra, Bourpon, Catuai, Pache, &amp; Catimor</p>
+            <p><strong>Region</strong>: Piura, Amazonas, Peru</p>
+            <p><strong>Altitude</strong>: 1100-1700 M</p>
+            <p><strong>Soil Type</strong>: Clay Minerals</p>
+            <p><strong>Process</strong>: Gully washed and dried in the sun.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Standard,,Size,12 Pack,,,,,12KPERU-DRIP-16OZ-BLACK,8504.8569375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_2151a2a9-d37e-4c9b-ae5d-b4bce7a19ea0.jpg?v=1762966480,1,"",false,,,,oz,,15.50,active
+bali-coffee-pods,Bali Coffee Pods,"<p><strong>Roast</strong>: Med-dark</p><p><strong>Tasting Profile</strong>: Dark chocolate, molasses, brown sugar</p><p><strong>Grower</strong>: Smallholder farmers from Kintamani</p><p><strong>Variety</strong>: Bourbon, Typica, Catimor</p><p><strong>Region</strong>: Kintamani, Bali, Indonesia</p><p><strong>Altitude</strong>: 1200-1600 M</p><p><strong>Soil Type</strong>: Volcanic Loam</p><p><strong>Process</strong>: Hand picked, wet-hulled and dried on raised beds.</p>",Mangy Dog Coffee,,"",single origin,true,Grind,Standard,,Size,12 Pack,,,,,12KBALI-DRIP-16OZ-BLACK,8504.8569375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_7efe19e8-7292-4c2a-bf75-2006e12aa1ed.jpg?v=1762966492,1,"",false,,,,oz,,15.50,active
+uganda,Uganda,"<p><meta charset=""utf-8""><strong>CUPPING NOTES:</strong><span> Mild Acidity, Light Body, Floral, Chocolate, Dark Fruits</span><br><strong>REGION:</strong><span> Sipi, Kapchorwa District, Uganda</span><br><strong>ALTITUDE:</strong><span> 1,500-2,500 M</span><br><strong>PROCESS:</strong><span> Fully Washed and Sun Dried</span><br><strong>Verietals:</strong><span> Bourbon: SL14, SL28, and Blue Mountain</span><br></p>",Mangy Dog Coffee,,"",single origin,true,Grind,Coarse,,Size,12oz,,,,,UGANDA-CO-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_bbdb25f3-7f07-418b-8a28-0cb6a21e0c8f.jpg?v=1762966505,1,"",false,,,,oz,,16.25,active
+uganda,,,,,,,,,Coarse,,,1 LB,,,,,UGANDA-CO-ME-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+uganda,,,,,,,,,Coarse,,,2 LB,,,,,UGANDA-CO-ME-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+uganda,,,,,,,,,Coarse,,,5 LB,,,,,UGANDA-CO-ME-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+uganda,,,,,,,,,Espresso,,,12oz,,,,,UGANDA-ES-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+uganda,,,,,,,,,Espresso,,,1 LB,,,,,UGANDA-ES-ME-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+uganda,,,,,,,,,Espresso,,,2 LB,,,,,UGANDA-ES-ME-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+uganda,,,,,,,,,Espresso,,,5 LB,,,,,UGANDA-ES-ME-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+uganda,,,,,,,,,Standard,,,12oz,,,,,UGANDA-ST-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+uganda,,,,,,,,,Standard,,,1 LB,,,,,UGANDA-ST-ME-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+uganda,,,,,,,,,Standard,,,2 LB,,,,,UGANDA-ST-ME-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+uganda,,,,,,,,,Standard,,,5 LB,,,,,UGANDA-ST-ME-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+uganda,,,,,,,,,Whole Bean,,,12oz,,,,,UGANDA-WH-ME-12OZ,396.89332375,dripshipper,deny,dripshipper,19.99,,true,true,,,,,,,,,,,,,oz,,16.25,
+uganda,,,,,,,,,Whole Bean,,,1 LB,,,,,UGANDA-WH-ME-1LB,510.29141625,dripshipper,deny,dripshipper,28.99,,true,true,,,,,,,,,,,,,oz,,21.00,
+uganda,,,,,,,,,Whole Bean,,,2 LB,,,,,UGANDA-WH-ME-2LB,1020.5828325,dripshipper,deny,dripshipper,49.99,,true,true,,,,,,,,,,,,,oz,,37.00,
+uganda,,,,,,,,,Whole Bean,,,5 LB,,,,,UGANDA-WH-ME-5LB,2721.55422,dripshipper,deny,dripshipper,89.99,,true,true,,,,,,,,,,,,,oz,,71.00,
+best-sellers-sample-pack-6bean-cowboy-breakfast-peru-mexico-bali,"Best Sellers Sample Pack: 6Bean, Cowboy, Breakfast, Peru, Mexico, Bali","<div>
+            <div>
+                <span>Sample our best selling coffees in 2oz packs.</span>
+            </div>
+            <br>
+            <div>
+                <strong> 6Bean Blend</strong>
+            </div>
+            <div>
+                <p>
+                <em>Roast: Dark Roast</em>
+                <br>
+                <em>House Blend. Great for Espresso meticulous blend of coffee from around the world</em>
+                </p>
+            </div>
+            <div>
+                <br>
+                <strong>Cowboy Blend</strong>
+            </div>
+            <div>
+                <p>
+                <em>Roast:Dark &amp; Medium Blend</em>
+                <br>
+                <em>With both Dark and Medium roasted coffee. Cocoa, caramel, &amp; vanilla tones</em>
+                </p>
+            </div>
+            <div>
+                <span>
+                <span>
+                    <br>
+                    <strong>Breakfast Blend</strong>
+                    <br>
+                </span>
+                </span>
+                <p>
+                <em>Roast: Medium</em>
+                <br>
+                <em>House Breakfast Blend. Smooth blend of coffee from South America</em>
+                </p>
+            </div>
+            <div>
+                <br>
+                <strong>Peru Single Origin</strong>
+            </div>
+            <div>
+                <p>
+                <em>Roast: Medium</em>
+                <br>
+                <em>Tasting Profile: Salted caramel, silky sweet, citrus</em>
+                <br>
+                <em>Grower: Cooperativa Agricola de Servicisios Norandino</em>
+                <br>
+                <em>Variety: Caturra, Bourpon, Catuai, Pache, &amp; Catimor</em>
+                <br>
+                <em>Region: Piura, Amazonas, Peru</em>
+                <br><em>Altitude: 1100-1700 M</em>
+                <br>
+                <em>Soil Type: Clay Minerals</em>
+                <br>
+                <em>Process: Gully washed and dried in the sun.</em>
+                </p>
+                <strong>Mexico Single Origin<br></strong>
+                <p>
+                <em>Roast: Medium<br></em>
+                <em>Tasting Profile: Chocolate, cinnamon, green apple.<br>Grower: Coffee growers from Chiapas and Oaxaca<br>Variety: Typica, Criollo, Bourbon, Mundo Novo, Caturra<br>Region: Chipias and Oaxaca, Mexico<br>Altitude: 900-1000 M<br>Soil Type: Clay Minerals<br>Process: Fully washed and sun dried.</em>
+                </p>
+            </div>
+            <div>
+                <br>
+                <strong>Bali</strong>
+                <strong> Single Origin</strong>
+            </div>
+            <div>
+                <p>
+                <em>Roast: Med-dark</em>
+                <br>
+                <em>Tasting Profile: Dark chocolate, molasses, brown sugar</em>
+                <br>
+                <em>Grower: Smallholder farmers from Kintamani</em>
+                <br>
+                <em>Variety: Bourbon, Typica, Catimor</em>
+                <br>
+                <em>Region: Kintamani, Bali, Indonesia</em>
+                <br>
+                <em>Altitude: 1200-1600 M</em>
+                <br>
+                <em>Soil Type: Volcanic Loam</em>
+                <br>
+                <em>Process: Hand picked, wet-hulled and dried on raised beds.</em>
+                </p>
+            </div>
+            </div>",Mangy Dog Coffee,,"",sample pack,true,Grind,Standard,,Size,6-count 2oz sample packs,,,,,CVARBSPACK-ST-NA-SAMPLEPACK,340.1942775,dripshipper,deny,dripshipper,24.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_6445cf66-7b5c-4106-be1b-9bb9cb12c3c1.jpg?v=1762966525,1,"",false,,,,oz,,18.00,active
+flavored-coffees-sample-pack,Flavored Coffees Sample Pack,"<div><span>Sample our flavored coffees in 2oz packs. 6 packs total</span></div>
+            <div>
+<span></span><br>
+</div>
+            <div><strong>French Vanilla</strong></div>
+            <div>
+            <p><em>Roast: Medium</em><br><em>This rich and creamy vanilla coffee is well rounded and smooth. The silky flavors blend perfectly with this small batch roasted coffee.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            <p> </p>
+            </div>
+            <div><strong>Hazelnut</strong></div>
+            <div>
+            <p><em>Roast: Medium<br></em><em>Nutty flavors blended seamlessly with Brazilian coffee to create a perfect hazelnut in your cup.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            <p> </p>
+            </div>
+            <div>
+<strong>Cinnabun</strong>
+            <p><em>Roast: Medium</em><br><em>All of the cinnamon roll flavor without the calories. This coffee has no added sugar or calories but does have all the great taste of your favorite iced cinnamon roll.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            <p> </p>
+            </div>
+            <div>
+            <p><strong>Caramel<br></strong><em>Roast: Medium</em><br><em>The all natural sweet buttery caramel flavor on this medium roasted coffee is fantastic alone or as the base for your blended drinks.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            <p> </p>
+            <p><strong><span>Mocha</span></strong> <br></p>
+
+            <p><em>Roast: Medium</em><br><em>This all natural flavored coffee has a rich chocolate decadence gently infused into a medium roast specialty grade arabica bean.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            </div>
+            <div>
+<br><strong>Cinnamon Hazelnut</strong>
+</div>
+            <div>
+            <p><em>Roast: Medium</em><br><em>The combination of cinnamon and hazelnut pair perfectly with this medium roast coffee for a smooth, mellow cup of delight.</em></p>
+            <p><em>All of our flavored coffees start as specialty grade single origin coffee roasted in small batches to a smooth medium. Each order is then carefully flavored with high quality flavoring oils while still warm.</em></p>
+            <p><br></p>
+
+            <p><span>*Natural Flavoring for these products</span></p>
+            </div>",Mangy Dog Coffee,,"",sample pack,true,Grind,Standard,,Size,6-count 2oz sample packs,,,,,CVARFCPACK-ST-NA-SAMPLEPACK,340.1942775,dripshipper,deny,dripshipper,24.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_85cdff22-2673-49cc-8bf5-5f54064a8c9b.jpg?v=1762966532,1,"",false,,,,oz,,18.00,active
+single-origin-favorites-sample-pack,Single Origin Favorites Sample Pack,"<div><span>Sample our most popular single origin coffees in 2oz packs. 6 packs total</span></div>
+            <div>
+<span></span><br>
+</div>
+            <div><strong>Brazil Santos</strong></div>
+            <div>
+            <p><em>Roast: Medium</em><br><em>Tasting Profile: Elegant, smooth cup with cocoa notes.</em><br><em>Grower: Fazenda Santa Barbara, Sao Francisco, Santo Antonio</em><br><em>Variety: Catuai and Mundo Novo</em><br><em>Region:Parana and Sao Paulo Brazil</em><br><em>Altitude: 750-1050 M</em><br><em>Soil Type: Volcanic Loam</em><br><em>Process: Pulped natural and dried in the Sun</em></p>
+            <p> </p>
+            </div>
+            <div><strong>Colombia</strong></div>
+            <div>
+            <p><em>Roast: Medium</em><br><em>Tasting Profile: Dried orange, berry, chocolate</em><br><em>Grower: Smallholder farmers from Medellin</em><br><em>Variety: Castillo, Caturra, Colombia, &amp; Typica</em><br><em>Region: Medellin, Antioquia, Colombia</em><br><em>Altitude: 1300-1500 M</em><br><em>Soil Type: Volcanic Loam</em><br><em>Process: Fully washed and dried in solar dryers to protect the coffee from rain.</em></p>
+            <p> </p>
+            </div>
+            <div>
+<strong>Costa Rica</strong><br>
+            <p><em>Roast: Medium</em><br><em>Tasting Profile: Sweet apple, raisin, honey</em><br><em>Grower: Micro farms in Alajuela</em><br><em>Variety: Caturra &amp; Catuai</em><br><em>Region: Alajuela, Costa Rica</em><br><em>Altitude: 1300-1445 M</em><br><em>Soil Type: Volcanic Loam</em><br><em>Process: Eco-pulped and dried in the sun.</em></p>
+            <p> </p>
+            </div>
+            <div>
+            <p><strong><span>Ethiopia<br></span></strong><em>Roast: Med-light</em><br><em>Tasting Profile: Milk chocolate, fruity, caramel</em><br><em>Grower: Smallholder farmers from thee Sidama zone.</em><br><em>Variety: Indigenous Heirloom Cultivars</em><br><em>Region: Sidama Zone, Ethiopia</em><br><em>Altitude: 1700-1900 M</em><br><em>Soil Type: Nitisols</em><br><em>Process: Full natural, sorted by hand. Dried on raised beds.</em></p>
+            <p> </p>
+            <strong>Honduras </strong><br>
+            <p><em>Roast: Medium-dark</em><br><em>Tasting Profile: Caramel, spice, brown sugar.</em><br><em>Grower: 1500 grower/members from Cafe Organics Marcala</em><br><em>Variety: Bourbon, Catuai, Caturra, Lempira, &amp; Typica</em><br><em>Region: Marcala, La Paz, Honduras</em><br><em>Altitude: 1300-1700 M</em><br><em>Soil Type: Clay Minerals</em><br><em>Process: Fully washed and sun dried.</em></p>
+            </div>
+            <div>
+<br><strong>Tanzania</strong>
+</div>
+            <div>
+            <p><em>Roast: Medium-light</em><br><em>Tasting Profile: Pear, floral, jasmine, strawberry.</em><br><em>Grower: Small cooperative farmers in the Mbeya area</em><br><em>Variety: Bourbon &amp; Kent</em><br><em>Region: Mbeya Region of Tanzania</em><br><em>Altitude: 1200-1900 M</em><br><em>Soil Type: Clay Minerals</em><br><em>Process: Fully washed and dried on raised beds</em></p>
+            </div>",Mangy Dog Coffee,,"",sample pack,true,Grind,Standard,,Size,6-count 2oz sample packs,,,,,CVARSOPACK-ST-NA-SAMPLEPACK,340.1942775,dripshipper,deny,dripshipper,24.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/label2_on_bag_c95043af-6149-4942-ae38-461c4be4f2f7.jpg?v=1762966555,1,"",false,,,,oz,,18.00,active
+jasmine,Jasmine,"A fine blend of freshly plucked jasmine blossoms and green tea, this is medium-bodied, sweet, smooth, and silky. Good for multiple steepings. The green tea is picked by hand and prepared then set aside until the Jasmine blosoms are ready. The two are paired at just the right time to create this harmony of fruity flavors on a medium bodied green tea base.
+",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TJAS-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest.jpg?v=1762966559,1,"",false,,,,oz,,12.00,active
+masala-chai,Masala Chai,"The bold and spicy character of Indian Masala Chai - full-bodied, aromatic, and intense. Great as a traditional chia served with milk and sugar but is also a invigorating drink on its own.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TCHAI-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_6d3c99e9-4c00-40d1-b675-b320c16e2044.jpg?v=1762966563,1,"",false,,,,oz,,12.00,active
+english-breakfast,English Breakfast,"Breakfast Tea as it should be. Not too complicated but strong enough to stand up to milk and sugar. A rustic, sweet cup that brings good news all day long. A blend of African and Indian Tea.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TENG-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_249a88da-b936-4068-99e8-83271d0d74f9.jpg?v=1762966572,1,"",false,,,,oz,,12.00,active
+peach-paradise,Peach Paradise,"This herbal blend is fruity, smooth, aromatic, and sweet. Fruity peach, sour cranberry and smooth notes of rose, creates paradise in a cup. A fantastic and refreshing cup both hot and cold.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TPEACH-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_6be92efa-04da-43d7-818d-43081f3ff489.jpg?v=1762966576,1,"",false,,,,oz,,12.00,active
+mango-treat,Mango Treat,"Sweet, smooth, and summery. Wonderful as a hot tea and incredible iced. The hint of mango on the already fruity tea means you can have a great cup of hot tea or very refreshing iced tea any time.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TMANG-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_e90b7fdf-353b-4af5-9736-523e73898a60.jpg?v=1762966581,1,"",false,,,,oz,,12.00,active
+apple-cider-rooibos,Apple Cider Rooibos,"This herbal blend is spicy, sweet, and naturally caffeine free. Rooibos (pronounced ROY-bos) is a popular tea alternative grown in South Africa. It is called Red Bush Tea and known for its health benefits. This blend elevates the great Rooibos flavors by adding in cinnamon, orange peel and natural spices for an unforgettable premium cup. Great fall flavor that you can enjoy year round.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TROO-TEA-3OZ,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_d2706573-a97f-408a-bcbc-e6eed922efe0.jpg?v=1762966590,1,"",false,,,,oz,,12.00,active
+hibiscus-berry-tea,Hibiscus Berry Tea,"<p>Flavored Herbal Tea: Organic Hibiscus Flowers, Organic Rosehips, Organic Orange Peel, Organic Rooibos, Organic Blueberry Flavor, Organic Passionfruit Flavor, Organic Mango Flavor</p> <p>Notes: BlueBerry, Currant</p> <p>Scoring: Low Astringency, High Body, High Sweetness</p> <p>Talk about refreshing! This Sweet Hibiscus based beverage is sure to quench your longing thirst of berry goodness, perfect as a cold brew or western style brew for any occasion.</p> <p>Brewing Method: 5 - 10 Min, 212 F, 3g / 12oz</p>",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,THIB-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_a25dfc8f-b432-47bc-8ccc-8fb723096170.jpg?v=1762966594,1,"",false,,,,oz,,12.00,active
+earl-grey,Earl Grey,"<p>Loose Leaf Flavored Tea: Ceylon OP, Bergamot Essential Oil, Cornflowers</p> <p>Notes: Orange, Floral, Malt</p> <p>Scoring: High Astringency, High Body, Medium Sweetness</p> <p>Earl grey is a timeless blend. We mix our Ceylon black tea with blue cornflowers and a touch of bergamot oil. While it is typically consumed alone, it can be combined with milk and sugar for a different experience.</p> <p>Brewing Method: 5 - 10 Min, 195 F, 2.5g / 12oz</p>",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TEARL-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_a3a6cf81-16f8-42ab-9734-96110ba0f41c.jpg?v=1762966604,1,"",false,,,,oz,,12.00,active
+moroccan-mint,Moroccan Mint,"Old green tea meets fresh mint — a smooth, vibrant blend that’s refreshing hot and next-level iced",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,TMOROC-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_d852411e-123c-4786-90a8-87cf48027bc5.jpg?v=1762966615,1,"",false,,,,oz,,12.00,active
+hojicha,Hojicha,"This  roasted green tea powder is crafted from carefully selected tea leaves and stems. Stone-milled into a fine powder, it brews into a smooth cup with comforting notes of toasted cereal and balanced umami.",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,3oz,,,,,THOJIC-TEA-3OZ-COMP,141.747615625,dripshipper,deny,dripshipper,20.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_076e730b-49d6-4770-bdad-bb429ba06ec9.jpg?v=1762966623,1,"",false,,,,oz,,15.00,active
+matcha,Matcha,"Refined and lingering, this matcha is crafted for traditional preparation and mindful daily rituals",Mangy Dog Coffee,,"",tea,true,Grind,Loose leaf,,Size,1oz,,,,,TMATCHA-TEA-1OZ-COMP,56.69904625,dripshipper,deny,dripshipper,18.99,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0687/4116/9339/files/kraft_blank_final_latest_4613a222-de79-4df1-9125-43cbacf430ad.jpg?v=1762966634,1,"",false,,,,oz,,15.00,active

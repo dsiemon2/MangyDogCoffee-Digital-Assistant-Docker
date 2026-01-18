@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Mangy Dog Coffee Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    .sidebar { min-height: 100vh; background: #2c3e50; }
+    .sidebar .nav-link { color: rgba(255,255,255,0.8); padding: 0.75rem 1rem; }
+    .sidebar .nav-link:hover, .sidebar .nav-link.active { color: #fff; background: rgba(255,255,255,0.1); }
+    .sidebar .nav-link i { margin-right: 0.5rem; }
+    .main-content { background: #f8f9fa; min-height: 100vh; }
+    .hero-section { background: linear-gradient(135deg, #6f4e37 0%, #3c2415 100%); color: white; border-radius: 12px; }
+    .feature-icon { width: 60px; height: 60px; background: #6f4e37; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <%- include('../partials/sidebar', { token: token, activePage: 'about' }) %>
+
+      <main class="col-md-10 ms-sm-auto main-content p-4">
+        <h2 class="mb-4">About Mangy Dog Coffee</h2>
+
+        <div class="hero-section p-5 mb-4">
+          <h1 class="display-4 mb-3"><i class="bi bi-cup-hot me-3"></i>Life's too short for bad coffee.</h1>
+          <p class="lead mb-0">Specialty coffee roasted with passion, delivered with care.</p>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title mb-4">What is Mangy Dog Coffee?</h4>
+                <p class="lead">
+                  Mangy Dog Coffee is a specialty coffee roaster dedicated to sourcing and roasting
+                  the finest coffee beans from around the world. We roast in small batches to ensure
+                  freshness and optimal flavor in every cup.
+                </p>
+                <p>
+                  We offer a wide variety of coffee blends and single-origin beans, along with
+                  premium loose leaf teas. Our subscription service ensures you never run out of
+                  your favorite brew, with free shipping and exclusive member benefits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <div class="feature-icon mx-auto mb-3">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <h5>Ethically Sourced</h5>
+                <p class="text-muted">We partner with farmers who practice sustainable and ethical growing methods.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <div class="feature-icon mx-auto mb-3">
+                  <i class="bi bi-fire"></i>
+                </div>
+                <h5>Small Batch Roasted</h5>
+                <p class="text-muted">Every batch is roasted to order for maximum freshness and flavor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <div class="feature-icon mx-auto mb-3">
+                  <i class="bi bi-heart-fill"></i>
+                </div>
+                <h5>Community Focused</h5>
+                <p class="text-muted">10% of all sales supports the AKT Foundation and local community initiatives.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header bg-primary text-white">
+                <h5 class="mb-0"><i class="bi bi-clock me-2"></i>Store Hours</h5>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><strong>Monday - Friday:</strong> 7:00 AM - 6:00 PM</li>
+                  <li class="mb-2"><strong>Saturday:</strong> 8:00 AM - 5:00 PM</li>
+                  <li><strong>Sunday:</strong> 9:00 AM - 3:00 PM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="bi bi-box-seam me-2"></i>Subscription Tiers</h5>
+              </div>
+              <div class="card-body">
+                <table class="table table-sm mb-0">
+                  <thead>
+                    <tr><th>Tier</th><th>Bags</th><th>Price</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Basic</td><td>1 bag</td><td>$14.99</td></tr>
+                    <tr><td>Plus</td><td>2 bags</td><td>$27.99</td></tr>
+                    <tr><td>Premium</td><td>4 bags</td><td>$52.99</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="mb-0"><i class="bi bi-cup-hot me-2"></i>Our Products</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h6>Coffee Blends</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">House Blend - Smooth, balanced medium roast</li>
+                  <li class="list-group-item">Dark Roast - Bold with dark chocolate notes</li>
+                  <li class="list-group-item">Light Roast - Bright and fruity</li>
+                  <li class="list-group-item">Decaf - Swiss Water Process</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h6>Single Origins</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Ethiopia Yirgacheffe - Floral & citrus</li>
+                  <li class="list-group-item">Colombia Supremo - Caramel & nutty</li>
+                  <li class="list-group-item">Guatemala Antigua - Chocolate & spice</li>
+                  <li class="list-group-item">Sumatra Mandheling - Earthy & bold</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-warning mb-4">
+          <div class="card-header bg-warning">
+            <h5 class="mb-0"><i class="bi bi-heart me-2"></i>The AKT Foundation</h5>
+          </div>
+          <div class="card-body">
+            <p>
+              The AKT Foundation is a 501(c)(3) nonprofit organization dedicated to providing
+              essential household necessities to families in extreme poverty and those impacted
+              by domestic violence.
+            </p>
+            <p class="mb-0">
+              <strong>10% of all Mangy Dog Coffee sales go directly to supporting families in need.</strong>
+            </p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
