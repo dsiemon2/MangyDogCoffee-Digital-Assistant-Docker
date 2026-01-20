@@ -1,6 +1,32 @@
 version: '3.8'
 
 services:
+  # ===========================================
+  # PostgreSQL Database
+  # ===========================================
+  postgres:
+    image: postgres:15-alpine
+    container_name: mangydogcoffee_postgres
+    environment:
+      - POSTGRES_USER=mangydogcoffee
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-mangydogcoffee_password}
+      - POSTGRES_DB=mangydogcoffee
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5435:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mangydogcoffee -d mangydogcoffee"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - mangydogcoffee_net
+    restart: unless-stopped
+
+  # ===========================================
+  # Nginx Reverse Proxy
+  # ===========================================
   nginx:
     image: nginx:alpine
     container_name: mangydogcoffee_proxy
@@ -17,6 +43,9 @@ services:
       - mangydogcoffee_net
     restart: unless-stopped
 
+  # ===========================================
+  # Main Application
+  # ===========================================
   app:
     build:
       context: .
@@ -25,13 +54,14 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3000
-      - DATABASE_URL=file:/app/data/app.db
+      - DATABASE_URL=postgresql://mangydogcoffee:${POSTGRES_PASSWORD:-mangydogcoffee_password}@postgres:5432/mangydogcoffee
       - ADMIN_TOKEN=${ADMIN_TOKEN:-admin}
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}
     env_file:
       - .env
-    volumes:
-      - app_data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
     command: ["node", "dist/server.js"]
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/healthz"]
@@ -43,6 +73,9 @@ services:
       - mangydogcoffee_net
     restart: unless-stopped
 
+  # ===========================================
+  # Admin Panel
+  # ===========================================
   admin:
     build:
       context: .
@@ -51,17 +84,17 @@ services:
     environment:
       - NODE_ENV=production
       - ADMIN_PORT=3001
-      - DATABASE_URL=file:/app/data/app.db
+      - DATABASE_URL=postgresql://mangydogcoffee:${POSTGRES_PASSWORD:-mangydogcoffee_password}@postgres:5432/mangydogcoffee
       - ADMIN_TOKEN=${ADMIN_TOKEN:-admin}
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}
     env_file:
       - .env
-    volumes:
-      - app_data:/app/data
-    command: ["node", "dist/adminServer.js"]
     depends_on:
+      postgres:
+        condition: service_healthy
       app:
         condition: service_healthy
+    command: ["node", "dist/adminServer.js"]
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://localhost:3001/healthz"]
       interval: 10s
@@ -77,4 +110,4 @@ networks:
     driver: bridge
 
 volumes:
-  app_data:
+  postgres_data:
