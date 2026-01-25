@@ -13,12 +13,11 @@ function getAuthFromEnv() {
   if (!b64) return null;
   const json = JSON.parse(Buffer.from(b64, 'base64').toString('utf-8'));
   const scopes = ['https://www.googleapis.com/auth/calendar'];
-  const auth = new google.auth.JWT(
-    json.client_email,
-    undefined,
-    json.private_key,
+  const auth = new google.auth.JWT({
+    email: json.client_email,
+    key: json.private_key,
     scopes
-  );
+  });
   return auth;
 }
 

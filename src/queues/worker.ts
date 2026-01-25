@@ -57,9 +57,10 @@ const transcriptionWorker = new Worker(
 
       const audioBuffer = await response.arrayBuffer();
 
-      // Transcribe with Whisper
+      // Transcribe with Whisper - convert ArrayBuffer to Blob for File constructor
+      const audioBlob = new Blob([audioBuffer], { type: 'audio/wav' });
       const file = new File(
-        [audioBuffer],
+        [audioBlob],
         'recording.wav',
         { type: 'audio/wav' }
       );
