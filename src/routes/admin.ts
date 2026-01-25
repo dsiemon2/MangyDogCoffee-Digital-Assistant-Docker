@@ -69,9 +69,52 @@ router.get('/admin/calls', requireAuth, async (req, res) => {
   res.render('admin/calls', { token: req.query.token, calls, branding, basePath });
 });
 
-// Coffee Sales (sample data for demonstration)
+// Coffee Sales - query real orders, with sample data fallback
 router.get('/admin/coffee-sales', requireAuth, async (req, res) => {
-  // Sample coffee sales data with actual Mangy Dog Coffee products
+  const branding = await getBranding();
+
+  // Try to get real orders from database
+  try {
+    const orders = await prisma.order.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 100,
+      include: { items: true }
+    });
+
+    // Filter for coffee items (not tea)
+    const teaProducts = ['english-breakfast', 'earl-grey', 'masala-chai', 'jasmine', 'moroccan-mint', 'matcha', 'hibiscus', 'hojicha'];
+    const coffeeSales = orders.flatMap(order =>
+      order.items
+        .filter(item => !teaProducts.some(t => item.productSku?.includes(t)))
+        .map(item => ({
+          id: item.id,
+          orderNumber: order.orderNumber,
+          product: item.productName,
+          size: item.size || 'N/A',
+          grind: item.grind || 'N/A',
+          quantity: item.quantity,
+          price: item.unitPrice,
+          total: item.totalPrice,
+          customer: order.customerName || 'Anonymous',
+          date: order.createdAt,
+          status: order.status
+        }))
+    );
+
+    if (coffeeSales.length > 0) {
+      const stats = {
+        totalSales: coffeeSales.reduce((sum, s) => sum + s.total, 0),
+        totalOrders: new Set(coffeeSales.map(s => s.orderNumber)).size,
+        avgOrderValue: coffeeSales.reduce((sum, s) => sum + s.total, 0) / Math.max(coffeeSales.length, 1)
+      };
+      return res.render('admin/coffee-sales', { token: req.query.token, sales: coffeeSales, stats, branding, basePath });
+    }
+  } catch (err) {
+    // Order table may not exist yet - fall through to sample data
+    console.log('Order table not available, using sample data');
+  }
+
+  // Sample data fallback
   const coffeeSales = [
     { id: 1, product: 'House Blend', size: '1 LB', grind: 'Standard', quantity: 3, price: 28.99, total: 86.97, customer: 'John Smith', date: new Date('2025-12-10'), status: 'shipped' },
     { id: 2, product: 'Colombia', size: '12oz', grind: 'Whole Bean', quantity: 2, price: 19.99, total: 39.98, customer: 'Sarah Johnson', date: new Date('2025-12-10'), status: 'processing' },
@@ -80,14 +123,7 @@ router.get('/admin/coffee-sales', requireAuth, async (req, res) => {
     { id: 5, product: 'Bali Blue', size: '1 LB', grind: 'Standard', quantity: 2, price: 28.99, total: 57.98, customer: 'Chris Wilson', date: new Date('2025-12-08'), status: 'delivered' },
     { id: 6, product: 'Best Sellers Sample Pack', size: '6-count 2oz', grind: 'Standard', quantity: 1, price: 24.99, total: 24.99, customer: 'Amanda Lee', date: new Date('2025-12-08'), status: 'shipped' },
     { id: 7, product: 'Max Caf Blend', size: '12oz', grind: 'Standard', quantity: 4, price: 19.99, total: 79.96, customer: 'David Martinez', date: new Date('2025-12-07'), status: 'delivered' },
-    { id: 8, product: 'Peru Decaf', size: '1 LB', grind: 'Whole Bean', quantity: 2, price: 28.99, total: 57.98, customer: 'Lisa Anderson', date: new Date('2025-12-07'), status: 'delivered' },
-    { id: 9, product: 'Cold Brew Coffee', size: '2 LB', grind: 'Coarse', quantity: 1, price: 49.99, total: 49.99, customer: 'Kevin Thompson', date: new Date('2025-12-06'), status: 'delivered' },
-    { id: 10, product: 'Coffee with Mushrooms Dark Roast', size: '8oz', grind: 'Standard', quantity: 3, price: 20.99, total: 62.97, customer: 'Rachel Garcia', date: new Date('2025-12-06'), status: 'delivered' },
-    { id: 11, product: 'African Kahawa Blend', size: '1 LB', grind: 'Espresso', quantity: 1, price: 28.99, total: 28.99, customer: 'Thomas Wright', date: new Date('2025-12-05'), status: 'delivered' },
-    { id: 12, product: 'Whiskey Barrel Aged', size: '12oz', grind: 'Standard', quantity: 2, price: 19.99, total: 39.98, customer: 'Jennifer Chen', date: new Date('2025-12-05'), status: 'delivered' },
-    { id: 13, product: 'Guatemala', size: '2 LB', grind: 'Whole Bean', quantity: 1, price: 49.99, total: 49.99, customer: 'Robert Kim', date: new Date('2025-12-04'), status: 'delivered' },
-    { id: 14, product: 'Breakfast Blend', size: '5 LB', grind: 'Standard', quantity: 1, price: 89.99, total: 89.99, customer: 'Maria Lopez', date: new Date('2025-12-04'), status: 'delivered' },
-    { id: 15, product: 'Kenya', size: '12oz', grind: 'Coarse', quantity: 3, price: 19.99, total: 59.97, customer: 'Daniel Park', date: new Date('2025-12-03'), status: 'delivered' }
+    { id: 8, product: 'Peru Decaf', size: '1 LB', grind: 'Whole Bean', quantity: 2, price: 28.99, total: 57.98, customer: 'Lisa Anderson', date: new Date('2025-12-07'), status: 'delivered' }
   ];
 
   const stats = {
@@ -96,22 +132,61 @@ router.get('/admin/coffee-sales', requireAuth, async (req, res) => {
     avgOrderValue: coffeeSales.reduce((sum, s) => sum + s.total, 0) / coffeeSales.length
   };
 
-  const branding = await getBranding();
   res.render('admin/coffee-sales', { token: req.query.token, sales: coffeeSales, stats, branding, basePath });
 });
 
-// Tea Sales (sample data for demonstration)
+// Tea Sales - query real orders, with sample data fallback
 router.get('/admin/tea-sales', requireAuth, async (req, res) => {
-  // Sample tea sales data
+  const branding = await getBranding();
+
+  // Try to get real orders from database
+  try {
+    const orders = await prisma.order.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 100,
+      include: { items: true }
+    });
+
+    // Filter for tea items only
+    const teaProducts = ['english-breakfast', 'earl-grey', 'masala-chai', 'jasmine', 'moroccan-mint', 'matcha', 'hibiscus', 'hojicha', 'tea'];
+    const teaSales = orders.flatMap(order =>
+      order.items
+        .filter(item => teaProducts.some(t => item.productSku?.toLowerCase().includes(t) || item.productName?.toLowerCase().includes('tea')))
+        .map(item => ({
+          id: item.id,
+          orderNumber: order.orderNumber,
+          product: item.productName,
+          size: item.size || '3oz tin',
+          quantity: item.quantity,
+          price: item.unitPrice,
+          total: item.totalPrice,
+          customer: order.customerName || 'Anonymous',
+          date: order.createdAt,
+          status: order.status
+        }))
+    );
+
+    if (teaSales.length > 0) {
+      const stats = {
+        totalSales: teaSales.reduce((sum, s) => sum + s.total, 0),
+        totalOrders: new Set(teaSales.map(s => s.orderNumber)).size,
+        avgOrderValue: teaSales.reduce((sum, s) => sum + s.total, 0) / Math.max(teaSales.length, 1)
+      };
+      return res.render('admin/tea-sales', { token: req.query.token, sales: teaSales, stats, branding, basePath });
+    }
+  } catch (err) {
+    // Order table may not exist yet - fall through to sample data
+    console.log('Order table not available, using sample data');
+  }
+
+  // Sample data fallback
   const teaSales = [
-    { id: 1, product: 'Masala Chai', size: '3oz tin', quantity: 2, price: 12.99, total: 25.98, customer: 'Jennifer White', date: new Date('2025-12-10'), status: 'shipped' },
-    { id: 2, product: 'Matcha Green Tea', size: '3oz tin', quantity: 1, price: 12.99, total: 12.99, customer: 'Robert Clark', date: new Date('2025-12-10'), status: 'processing' },
-    { id: 3, product: 'Earl Grey', size: '3oz tin', quantity: 3, price: 12.99, total: 38.97, customer: 'Nancy Taylor', date: new Date('2025-12-09'), status: 'shipped' },
-    { id: 4, product: 'English Breakfast', size: '3oz tin', quantity: 2, price: 12.99, total: 25.98, customer: 'James Robinson', date: new Date('2025-12-09'), status: 'delivered' },
-    { id: 5, product: 'Moroccan Mint', size: '3oz tin', quantity: 1, price: 12.99, total: 12.99, customer: 'Patricia Hall', date: new Date('2025-12-08'), status: 'delivered' },
-    { id: 6, product: 'Hibiscus Berry', size: '3oz tin', quantity: 4, price: 12.99, total: 51.96, customer: 'Michael Young', date: new Date('2025-12-08'), status: 'shipped' },
-    { id: 7, product: 'Jasmine Green Tea', size: '3oz tin', quantity: 2, price: 12.99, total: 25.98, customer: 'Linda King', date: new Date('2025-12-07'), status: 'delivered' },
-    { id: 8, product: 'Hojicha', size: '3oz tin', quantity: 1, price: 12.99, total: 12.99, customer: 'William Scott', date: new Date('2025-12-07'), status: 'delivered' }
+    { id: 1, product: 'Masala Chai', size: '3oz tin', quantity: 2, price: 20.99, total: 41.98, customer: 'Jennifer White', date: new Date('2025-12-10'), status: 'shipped' },
+    { id: 2, product: 'Matcha', size: '1oz', quantity: 1, price: 18.99, total: 18.99, customer: 'Robert Clark', date: new Date('2025-12-10'), status: 'processing' },
+    { id: 3, product: 'Earl Grey Tea', size: '3oz tin', quantity: 3, price: 20.99, total: 62.97, customer: 'Nancy Taylor', date: new Date('2025-12-09'), status: 'shipped' },
+    { id: 4, product: 'English Breakfast Tea', size: '3oz tin', quantity: 2, price: 20.99, total: 41.98, customer: 'James Robinson', date: new Date('2025-12-09'), status: 'delivered' },
+    { id: 5, product: 'Moroccan Mint Tea', size: '3oz tin', quantity: 1, price: 20.99, total: 20.99, customer: 'Patricia Hall', date: new Date('2025-12-08'), status: 'delivered' },
+    { id: 6, product: 'Jasmine Tea', size: '3oz tin', quantity: 2, price: 20.99, total: 41.98, customer: 'Linda King', date: new Date('2025-12-07'), status: 'delivered' }
   ];
 
   const stats = {
@@ -120,7 +195,6 @@ router.get('/admin/tea-sales', requireAuth, async (req, res) => {
     avgOrderValue: teaSales.reduce((sum, s) => sum + s.total, 0) / teaSales.length
   };
 
-  const branding = await getBranding();
   res.render('admin/tea-sales', { token: req.query.token, sales: teaSales, stats, branding, basePath });
 });
 

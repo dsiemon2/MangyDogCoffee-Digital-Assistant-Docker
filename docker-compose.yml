@@ -2,6 +2,24 @@ version: '3.8'
 
 services:
   # ===========================================
+  # Redis (for BullMQ job queues)
+  # ===========================================
+  redis:
+    image: redis:7-alpine
+    container_name: mangydogcoffee_redis
+    # No external port needed - only accessed by other containers
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - mangydogcoffee_net
+    restart: unless-stopped
+
+  # ===========================================
   # PostgreSQL Database
   # ===========================================
   postgres:
@@ -55,12 +73,15 @@ services:
       - NODE_ENV=production
       - PORT=3000
       - DATABASE_URL=postgresql://mangydogcoffee:${POSTGRES_PASSWORD:-mangydogcoffee_password}@postgres:5432/mangydogcoffee
+      - REDIS_URL=redis://redis:6379
       - ADMIN_TOKEN=${ADMIN_TOKEN:-admin}
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}
     env_file:
       - .env
     depends_on:
       postgres:
+        condition: service_healthy
+      redis:
         condition: service_healthy
     command: ["node", "dist/server.js"]
     healthcheck:
@@ -85,12 +106,15 @@ services:
       - NODE_ENV=production
       - ADMIN_PORT=3001
       - DATABASE_URL=postgresql://mangydogcoffee:${POSTGRES_PASSWORD:-mangydogcoffee_password}@postgres:5432/mangydogcoffee
+      - REDIS_URL=redis://redis:6379
       - ADMIN_TOKEN=${ADMIN_TOKEN:-admin}
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}
     env_file:
       - .env
     depends_on:
       postgres:
+        condition: service_healthy
+      redis:
         condition: service_healthy
       app:
         condition: service_healthy
@@ -105,9 +129,35 @@ services:
       - mangydogcoffee_net
     restart: unless-stopped
 
+  # ===========================================
+  # Background Worker (KB indexing, transcription)
+  # ===========================================
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mangydogcoffee_worker
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://mangydogcoffee:${POSTGRES_PASSWORD:-mangydogcoffee_password}@postgres:5432/mangydogcoffee
+      - REDIS_URL=redis://redis:6379
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: ["node", "dist/queues/worker.js"]
+    networks:
+      - mangydogcoffee_net
+    restart: unless-stopped
+
 networks:
   mangydogcoffee_net:
     driver: bridge
 
 volumes:
   postgres_data:
+  redis_data:

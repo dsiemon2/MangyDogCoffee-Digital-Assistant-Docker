@@ -21,9 +21,17 @@ export function getRedis(): Redis | null {
   return _redis;
 }
 
-// For backwards compatibility - but won't auto-connect
-export const redis = {
-  get client() {
-    return getRedis();
+// For BullMQ workers - create connection immediately if REDIS_URL is set
+function createRedisConnection(): Redis | { host: string; port: number } {
+  if (process.env.REDIS_URL) {
+    return new Redis(process.env.REDIS_URL, {
+      maxRetriesPerRequest: null, // BullMQ requires this
+      enableReadyCheck: false
+    });
   }
-} as unknown as Redis;
+  // Fallback to localhost for local dev (will fail gracefully)
+  return { host: 'localhost', port: 6379 };
+}
+
+// Export for BullMQ - needs to be a real Redis instance or connection options
+export const redis = createRedisConnection();

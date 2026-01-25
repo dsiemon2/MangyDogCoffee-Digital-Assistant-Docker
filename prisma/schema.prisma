@@ -28,6 +28,7 @@ model CallLog {
   messages    Message[]
   intents     IntentLog[]
   citations   CitationsLog[]
+  orders      Order[]
 }
 
 model Transcript {
@@ -56,6 +57,63 @@ model IntentLog {
   intent    String
   meta      String   @default("{}")
   createdAt DateTime @default(now())
+}
+
+// ============================================
+// ORDERS
+// ============================================
+
+model Order {
+  id              String      @id @default(cuid())
+  orderNumber     String      @unique  // MDC-XXXXX format
+  callLogId       String?
+  callLog         CallLog?    @relation(fields: [callLogId], references: [id])
+
+  // Customer Info
+  customerName    String?
+  customerPhone   String
+  customerEmail   String?
+
+  // Order Details
+  items           OrderItem[]
+  subtotal        Float
+  tax             Float       @default(0)
+  shipping        Float       @default(0)
+  total           Float
+
+  // Status
+  status          String      @default("pending")  // pending, confirmed, processing, shipped, delivered, cancelled
+  paymentStatus   String      @default("pending")  // pending, paid, failed, refunded
+  paymentMethod   String?     // phone, online, in_store
+  paymentId       String?     // External payment reference (Stripe, PayPal, etc.)
+
+  // Shipping
+  shippingMethod  String?     // standard, express, pickup
+  shippingAddress String?     // JSON: {street, city, state, zip}
+  trackingNumber  String?
+
+  // Notes
+  notes           String?     // Special instructions
+  internalNotes   String?     // Staff notes
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  orderId     String
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  productName String   // "House Blend", "Colombia", etc.
+  productSku  String?  // Optional SKU
+  quantity    Int
+  size        String?  // "12oz", "1 LB", "2 LB", "5 LB"
+  grind       String?  // "whole_bean", "standard", "espresso", "coarse"
+  unitPrice   Float
+  totalPrice  Float
+
+  createdAt   DateTime @default(now())
 }
 
 // ============================================
